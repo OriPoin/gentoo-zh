@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-06-26 12:26:06 CST)
+(The last generation time: 2022-07-04 15:19:06 CST)
 
 ### Packages
 
@@ -12,7 +12,7 @@
  app-admin/zenmonitor                         | 1.4.2                                     |        | https://github.com/ocerman/zenmonitor                                                   | Zen monitor is monitoring software for AMD Zen-based CPUs
    sys-kernel/zenpower                        | 0.1.12-r1                                 |  D, RD | https://github.com/ocerman/zenpower                                                     | Linux kernel driver for reading sensors of AMD Zen family CPUs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-backup/snapper-gui                       | 201020                                    |        | https://github.com/ricardomv/snapper-gui                                                | GUI for snapper, a tool for Linux filesystem snapshot management
+ app-backup/snapper-gui                       | 220626                                    |        | https://github.com/ricardomv/snapper-gui                                                | GUI for snapper, a tool for Linux filesystem snapshot management
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-crypt/etoken-sac                         | 10.3                                      |        | http://aladdin-rd.ru                                                                    | SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -69,7 +69,7 @@
  app-i18n/man-pages-zh_CN                     | 9999                                      |        | https://github.com/man-pages-zh/manpages-zh                                             | A somewhat comprehensive collection of Chinese Linux man pages
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/mozc                                | 2.26.4220_p20201212102434_p20201219202429 |        | https://github.com/google/mozc                                                          | Mozc - Japanese input method editor
-                                              | 2.26.4220_p20211115025624_p20220214004422 |        |                                                                                         |
+                                              | 2.26.4632_p20220213064411_p20220214004422 |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/scim-chrasis                        | 9999.0.0.1                                |        | http://chrasis.berlios.de/                                                              | Chrasis SCIM binding for chinese character recognition.
@@ -131,67 +131,6 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-vim/powerline                            | 9999                                      |        | http://www.vim.org/scripts/script.php?script_id=3881                                    | vim plugin: The ultimate vim statusline utility.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- cutefish-base/cutefish-meta                  | 0.7                                       |        | https://cutefishos.com                                                                  | CutefishOS Desktop Enviroment (meta package)
-                                              | 0.8                                       |        |                                                                                         |
-   cutefish-base/cutefish-appmotor            | 0.8                                       | RD     | https://github.com/cutefishos/appmotor                                                  | Optimize the speed of starting cutefish apps
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-calculator          | 0.7                                       | RD     | https://github.com/cutefishos/calculator                                                | CutefishOS Calculator
-                                              | 9999                                      |        |                                                                                         |
-     sys-libs/libcutefish                     | 0.7                                       | RD     | https://github.com/cutefishos/libcutefish                                               | System library for Cutefish applications
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-dock                | 0.7                                       | RD     | https://github.com/cutefishos/dock                                                      | CutefishOS application dock
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-filemanager         | 0.7                                       | RD     | https://github.com/cutefishos/filemanager                                               | Cutefish File Manager
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-gtk-themes          | 0.7                                       | RD     | https://github.com/cutefishos/gtk-themes                                                | CutefishOS GTK Themes
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-icons               | 0.7                                       | RD     | https://github.com/cutefishos/icons                                                     | System default icon theme of CutefishOS
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-kwin-plugins        | 0.7                                       | RD     | https://github.com/cutefishos/kwin-plugins                                              | CutefishOS KWin Plugins
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-launcher            | 0.7                                       | RD     | https://github.com/cutefishos/launcher                                                  | CutefishOS's full-screen application launcher
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-qt-plugins          | 0.7                                       | RD     | https://github.com/cutefishos/qt-plugins                                                | Unify Qt application style of CutefishOS
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-screenlocker        | 0.7                                       | RD     | https://github.com/cutefishos/core                                                      | CutefishOS system screen locker
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-screenshot          | 0.7                                       | RD     | https://github.com/cutefishos/screenshot                                                | Screenshot tool for CutefishOS
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-sddm-theme          | 0.7                                       | RD     | https://github.com/cutefishos/sddm-theme                                                | CutefishOS SDDM Theme
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-settings            | 0.7                                       | RD     | https://github.com/cutefishos/settings                                                  | System Settings application for Cutefish Desktop
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-statusbar           | 0.7                                       | RD     | https://github.com/cutefishos/statusbar                                                 | Status of the system, such as time, system tray
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-terminal            | 0.7                                       | RD     | https://github.com/cutefishos/terminal                                                  | A terminal emulator for Cutefish
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-texteditor          | 0.7                                       | RD     | https://github.com/cutefishos/texteditor                                                | Elegant text editor for Cutefish
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-videoplayer         | 0.7                                       | RD     | https://github.com/cutefishos/videoplayer                                               | An open source video player built with Qt/QML and libmpv
-                                              | 9999                                      |        |                                                                                         |
-   cutefish-base/cutefish-wallpapers          | 0.7                                       | RD     | https://github.com/cutefishos/wallpapers                                                | CutefishOS's system wallpaper
-                                              | 9999                                      |        |                                                                                         |
-   sys-libs/cutefish-core                     | 0.7                                       | RD     | https://github.com/cutefishos/core                                                      | System components and backend of CutefishOS
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-     sys-libs/fishui                          | 0.7                                       | RD     | https://github.com/cutefishos/fishui                                                    | GUI library based on QQC2 for Cutefish applications
-                                              | 0.8                                       |        |                                                                                         |
-                                              | 9999                                      |        |                                                                                         |
-     x11-drivers/xf86-input-synaptics         | 1.9.1                                     |  D, BD |                                                                                         | Driver for Synaptics touchpads
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/cppcoro                              | 210605                                    |        | https://github.com/Garcia6l20/cppcoro                                                   | A library of C++ coroutine abstractions for the coroutines TS
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/date                                 | 3.0.1                                     |        | https://github.com/HowardHinnant/date                                                   | A date and time library based on the C++11/14/17 <chrono> header
@@ -223,6 +162,8 @@
  dev-python/conda                             | 4.13.0                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-package-handling          | 1.8.1                                     |  D, RD | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
    dev-python/pycosat                         | 0.6.3                                     |  D, RD | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-python/daff                              | 1.3.46                                    |        | https://github.com/paulfitz/daff                                                        | The daff can produce and apply tabular diffs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/nvchecker                         | 2.8                                       |        | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
    dev-python/structlog                       | 21.5.0                                    | RD     | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
@@ -304,7 +245,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-gfx/xrectsel                           | 0.3.1                                     |        | https://github.com/lolilolicon/xrectsel                                                 | print the geometry of a rectangular screen region
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-gfx/zw3d                               | 2022.26.00-r1                             |        | https://www.zwsoft.cn/product/zw3d/linux                                                | CAD/CAM software for 3D design and processing
+ media-gfx/zw3d                               | 2022.0.3.1                                |        | https://www.zwsoft.cn/product/zw3d/linux                                                | CAD/CAM software for 3D design and processing
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-gfx/zwcad                              | 2022.22.2.2.3                             |        | https://www.zwsoft.cn/product/zwcad/linux                                               | CAD software for 2D drawing, reviewing and printing work
                                               | 2023.23.0.3.4                             |        |                                                                                         |
@@ -337,6 +278,7 @@
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                         | 0.6.12                                    |        | https://github.com/tramhao/termusic                                                     | Music Player TUI written in Rust
+                                              | 0.6.16                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/yesplaymusic-bin                 | 0.4.4-r1                                  |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
                                               | 0.4.5                                     |        |                                                                                         |
@@ -375,8 +317,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/weixin-uos                            | 2.1.4                                     |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/wemeet                                | 2.8.0.1                                   |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
-                                              | 2.8.0.3                                   |        |                                                                                         |
+ net-im/wemeet                                | 2.8.0.3                                   |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
+                                              | 3.8.0.2                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-libs/jzmq                                | 9999                                      |        | http://www.zeromq.org/bindings:java                                                     | jzmq
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -422,7 +364,7 @@
  net-proxy/clash                              | 1.10.6                                    |        | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
                                               | 1.11.0                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.19.22                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+ net-proxy/clash-for-windows-bin              | 0.19.23                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |        | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -434,9 +376,10 @@
  net-proxy/smartproxy                         | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/v2rayA                             | 1.5.7                                     |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
+                                              | 1.5.8.1                                   |        |                                                                                         |
    net-proxy/Xray                             | 1.5.5-r2                                  | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
-     dev-libs/v2ray-domain-list-community-bin | 20220612032845                            | RD     | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
-     dev-libs/v2ray-geoip-bin                 | 202206090051                              | RD     | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
+     dev-libs/v2ray-domain-list-community-bin | 20220628031741                            | RD     | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
+     dev-libs/v2ray-geoip-bin                 | 202206230045                              | RD     | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
    net-proxy/v2ray                            | 4.45.0                                    | RD     | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
                                               | 4.45.2                                    |        |                                                                                         |
    net-proxy/v2ray-bin                        | 4.45.0                                    | RD     | https://www.v2fly.org                                                                   | A platform for building proxies to bypass network restrictions.
@@ -483,14 +426,14 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-libs/elog-functions                      | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log eclass functions of OpenRC
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-process/btop                             | 1.2.7                                     |        | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
+ sys-process/btop                             | 1.2.8                                     |        | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.49                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
                                               | 5.18.6                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r10                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.18.5                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.18.6                                    |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.18.7                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.18.8                                    |        |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D     | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.1                                    | RD     | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-kernel                   | 5.15.49                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
