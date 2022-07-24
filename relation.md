@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-07-14 19:17:53 CST)
+(The last generation time: 2022-07-24 18:11:19 CST)
 
 ### Packages
 
@@ -25,8 +25,7 @@
  app-editors/marktext-bin                     | 0.17.1                                    |        | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                           | 0.11.18                                   |        | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
-                                              | 1.2.4                                     |        |                                                                                         |
-                                              | 1.2.4-r1                                  |        |                                                                                         |
+                                              | 1.3.6                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |        | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -150,7 +149,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-libs/libdwarf                            | 20140208                                  |        | https://github.com/Distrotech/libdwarf                                                  | Library to deal with DWARF Debugging Information Format
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-libs/lunar-date                          | 3.0.1                                     |        | https://github.com/yetist/lunar-date                                                    | Chinese Lunar Library
+ dev-libs/lunar-calendar                      | 3.0.1                                     |        | https://github.com/yetist/lunar-calendar                                                | a gtk+ calendar widget for chinese lunar library
+   dev-libs/lunar-date                        | 3.0.1                                     |  D     | https://github.com/yetist/lunar-date                                                    | Chinese Lunar Library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-libs/tdlib                               | 1.5.0                                     |        | https://core.telegram.org/tdlib                                                         | Cross-platform library for building Telegram clients
                                               | 1.6.0                                     |        |                                                                                         |
@@ -166,7 +166,7 @@
  dev-python/daff                              | 1.3.46                                    |        | https://github.com/paulfitz/daff                                                        | The daff can produce and apply tabular diffs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/nvchecker                         | 2.9                                       |        | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
-   dev-python/structlog                       | 21.5.0                                    | RD     | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
+   dev-python/structlog                       | 22.1.0                                    | RD     | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/python-telegram-bot               | 13.12                                     |        | https://github.com/python-telegram-bot/python-telegram-bot                              | Python wrapper of telegram bots API
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -191,13 +191,14 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/lldb-mi                             | 9999                                      |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/rust-analyzer                       | 20220314                                  |        | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
-                                              | 20220704                                  |        |                                                                                         |
+ dev-util/rust-analyzer                       | 20220718                                  |        | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
                                               | 99999999                                  |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-vcs/lazygit-bin                          | 0.34                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
+ dev-vcs/lazygit                              | 0.35                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-vcs/lazygit-bin                          | 0.35                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-action/DDNet                           | 16.2.2                                    |        | https://ddnet.tw/                                                                       | DDraceNetwork, a cooperative racing mod of Teeworlds
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -263,12 +264,14 @@
    dev-python/fuo-kuwo                        | 0.1.5                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
                                               | 0.1.6                                     |        |                                                                                         |
    dev-python/fuo-local                       | 0.3                                       |  D     | https://github.com/feeluown/feeluown-local                                              | local music support for feeluown
-   dev-python/fuo-netease                     | 0.9.1                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
+   dev-python/fuo-netease                     | 0.9.2                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
    dev-python/fuo-qqmusic                     | 0.4.1                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.23.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                           | 2.2.0                                     |        | http://www.linnya.org                                                                   | A free music player
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ media-sound/listen1_desktop-bin              | 2.24.0                                    |        | http://listen1.github.io/listen1                                                        | one for all free music in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/lx-music-desktop-bin             | 1.21.0                                    |        | https://github.com/lyswhut/lx-music-desktop                                             | 一个基于 electron 的音乐软件
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -294,8 +297,6 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/phddns                               | 2.0.6.32828                               |        | http://hsk.oray.com/                                                                    | Phddns
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/avim                                  | 0.1                                       |        | http://avim.avplayer.org                                                                | avim is a secure IM build around RSA
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/deepin-wine-qq                        | 9.5.2.27897                               |        | https://aur.archlinux.org/packages/deepin-wine-qq                                       | Tencent QQ on Deepin Wine(com.qq.im.deepin) For Gentoo
    app-emulation/deepin-wine6-stable          | 6.0.0.19-r1                               |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
      app-emulation/deepin-udis86              | 1.72-r4                                   | RD     | https://www.deepin.org                                                                  | Deepin Version of Wine
@@ -309,14 +310,12 @@
                                               | 0.1.29                                    |        |                                                                                         |
      dev-libs/libdatrie                       | 0.2.13                                    |  D, RD | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/freetalk                              | 4.1                                       |        | http://www.gnu.org/software/freetalk/                                                   | Console based Jabber client
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/telegram-purple                       | 1.4.7-r1                                  |        | https://github.com/majn/telegram-purple                                                 | Libpurple (Pidgin) plugin for using a Telegram account
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/tencent-qq                            | 2.0.0_beta2_p1089                         |        | https://im.qq.com/linuxqq/download.html                                                 | Official Linux version of Tencent QQ
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/weixin-uos                            | 2.1.4                                     |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
+ net-im/weixin-uos                            | 2.1.5                                     |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/wemeet                                | 2.8.0.3-r1                                |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
                                               | 3.8.0.2-r1                                |        |                                                                                         |
@@ -362,15 +361,15 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-print/epson-inkjet-printer_201207w       | 1.0.0                                     |        | http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX                              | Epson printer driver (L110, L210, L300, L350, L355, L550, L555)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash                              | 1.10.6                                    |        | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
-                                              | 1.11.0                                    |        |                                                                                         |
+ net-proxy/clash                              | 1.11.4                                    |        | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-for-windows-bin              | 0.19.23                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                              | 0.19.25                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |        | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/shadowsocks-rust                   | 1.14.3                                    |        | https://github.com/shadowsocks/shadowsocks-rust                                         | A Rust port of shadowsocks.
-                                              | 1.15.0_alpha5                             |        |                                                                                         |
+                                              | 1.15.0_alpha8                             |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/shadowvpn                          | 9999                                      |        | http://shadowvpn.org/                                                                   | A fast, safe VPN based on libsodium
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -433,8 +432,8 @@
                                               | 5.18.11                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r10                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.18.10                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.18.11                                   |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.18.12                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.18.13                                   |        |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D     | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.1                                    | RD     | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-kernel                   | 5.15.54                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
