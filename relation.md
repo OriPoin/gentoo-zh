@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-08-06 20:59:20 CST)
+(The last generation time: 2022-08-09 09:43:55 CST)
 
 ### Packages
 
@@ -115,9 +115,6 @@
    app-shells/gitstatus                       | 1.5.4                                     |  D, RD | https://github.com/romkatv/gitstatus                                                    | Git status for Bash and Zsh prompt
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-text/groff-utf8                          | 0-r1                                      |        | http://www.haible.de/bruno/packages-groff-utf8.html                                     | GNU groff wrapper allowing UTF-8 input
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-text/wiznote                             | 2.8.5                                     |        | http://www.wiz.cn/index.html                                                            | cross-platform cloud based note-taking client
-                                              | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-text/ydcv-rs                             | 0.4.7                                     |        | https://github.com/farseerfc/ydcv-rs                                                    | A rust version of YouDao Console Version
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -271,7 +268,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                         | 0.6.12                                    |        | https://github.com/tramhao/termusic                                                     | Music Player TUI written in Rust
                                               | 0.6.16                                    |        |                                                                                         |
-                                              | 0.7.1                                     |        |                                                                                         |
+                                              | 0.7.2                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/yesplaymusic-bin                 | 0.4.4-r1                                  |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
                                               | 0.4.5                                     |        |                                                                                         |
@@ -279,8 +276,6 @@
  media-video/avplayer                         | 9999                                      |        | http://avplayer.avplayer.org                                                            | avplayer is a p2p video downloader and player
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/tenvideo                         | 1.0.10                                    |        | https://v.qq.com/download.html#linux                                                    | Tencent videos
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-dialup/mentohust                         | 9999                                      |        | http://code.google.com/p/mentohust/                                                     | A Ruijie and Cernet supplicant on Linux and MacOS
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/chinadns                             | 1.3.2                                     |        | https://github.com/clowwindy/ChinaDNS                                                   | Protect yourself against DNS poisoning in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -424,11 +419,9 @@
  virtual/dist-kernel                          | 5.15.59                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
                                               | 5.18.16                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/linux-sources                        | 3-r10                                     |        |                                                                                         | Virtual for Linux kernel sources
+ virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.18.13                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                               | 5.18.15                                   |        |                                                                                         |
-     dev-util/pahole                          | 1.23                                      |  D     | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
-   sys-kernel/starfive-sources                | 5.17.1                                    | RD     | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-kernel                   | 5.15.59                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 5.18.16                                   |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD     | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
