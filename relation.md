@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-08-09 09:43:55 CST)
+(The last generation time: 2022-08-26 20:46:12 CST)
 
 ### Packages
 
@@ -22,7 +22,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx5-pinyin-zhwiki               | 20220722                                  |        | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/AppFlowy-bin                     | 0.0.3                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
+ app-editors/appflowy-bin                     | 0.0.3                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
+                                              | 0.0.4                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/marktext-bin                     | 0.17.1                                    |        | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -105,6 +106,7 @@
                                               | 5.9.18                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/freeoffice                        | 1046                                      |        | https://www.freeoffice.com                                                              | A complete, free Microsoft Office-compatible alternative office suite.
+                                              | 1050                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/wps-office                        | 11.1.0.10976                              |        | http://www.wps.cn/product/wpslinux/                                                     | WPS Office is an office productivity suite, Here is the Chinese version
                                               | 11.1.0.11664                              |        |                                                                                         |
@@ -164,7 +166,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/arch-install-scripts                | 24                                        |        | https://projects.archlinux.org/arch-install-scripts.git/                                | Arch Linux install tools (pacstrap, genfstab, arch-chroot)
    sys-apps/pacman                            | 6.0.1                                     |  D, RD | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
-     app-crypt/archlinux-keyring              | 20211028                                  |  D, RD | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
+     app-crypt/archlinux-keyring              | 20220727                                  |  D, RD | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
      sys-apps/pacman-mirrorlist               | 20210509                                  | RD     | https://archlinux.org/mirrorlist/                                                       | Repository list for Archlinux's binary package manager
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/bom-utils                           | 1.0                                       |        | https://github.com/jlblancoc/utf-bom-utils                                              | Small programs to add or remove the BOM mark in UTF8 files
@@ -177,7 +179,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/lldb-mi                             | 9999                                      |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/rust-analyzer                       | 20220801                                  |        | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
+ dev-util/rust-analyzer                       | 20220822                                  |        | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
                                               | 99999999                                  |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
@@ -186,13 +188,11 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/lazygit-bin                          | 0.35                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- games-action/DDNet                           | 16.2.2                                    |        | https://ddnet.tw/                                                                       | DDraceNetwork, a cooperative racing mod of Teeworlds
+ games-action/DDNet                           | 16.3                                      |        | https://ddnet.tw/                                                                       | DDraceNetwork, a cooperative racing mod of Teeworlds
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-board/othello                          | 0.2.2                                     |        | http://othello-game.sourceforge.net                                                     | Othello is a classic strategy game, also known as Reversi
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-misc/oh-my-git-bin                     | 0.6.5                                     |        | https://ohmygit.org/                                                                    | An interactive Git learning game!
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- games-util/mangohud                          | 0.6.6-r1                                  |        | https://github.com/flightlessmango/MangoHud                                             | A Vulkan & OpenGL overlay for monitoring FPS,temperatures,CPU/GPU load and more.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-util/winegame-client-bin               | 0.5.9.4                                   |        | https://winegame.net/                                                                   | An open source gaming platform for GNU/Linux
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -240,9 +240,6 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-libs/libspiro                          | 0.3.20150131                              |        | https://github.com/fontforge/libspiro                                                   | Spiro is the creation of Raph Levien. It simplifies the drawing of beautiful curves.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-plugins/audacious-mac                  | 0.2.0                                     |        | http://www.netswarm.net/                                                                | Monkey's Audio Codec plugin for audacious
-                                              | 0.3.10                                    |        |                                                                                         |
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-plugins/gimp-gap                       | 2.8.0                                     |        | http://www.gimp.org/                                                                    | Gimp Animation Package
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/feeluown                         | 3.8.7                                     |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
@@ -262,13 +259,14 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/netease-cloud-music              | 1.2.1                                     |        | https://music.163.com                                                                   | Netease Cloud Music, converted from .deb package
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/netease-cloud-music-gtk          | 1.2.2                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK3 for Linux
+ media-sound/netease-cloud-music-gtk          | 1.2.2                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK for Linux
+                                              | 2.0.2                                     |        |                                                                                         |
    media-plugins/osdlyrics                    | 0.5.10-r1                                 | RD     | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
+                                              | 0.5.11                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/termusic                         | 0.6.12                                    |        | https://github.com/tramhao/termusic                                                     | Music Player TUI written in Rust
-                                              | 0.6.16                                    |        |                                                                                         |
-                                              | 0.7.2                                     |        |                                                                                         |
+ media-sound/termusic                         | 0.7.2                                     |        | https://github.com/tramhao/termusic                                                     | Terminal Music Player written in Rust.
+                                              | 0.7.3                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/yesplaymusic-bin                 | 0.4.4-r1                                  |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
                                               | 0.4.5                                     |        |                                                                                         |
@@ -326,6 +324,7 @@
  net-misc/postman-bin                         | 9.6.1                                     |        | https://www.getpostman.com                                                              | Supercharge your API workflow
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/prips                               | 1.0.0                                     |        | http://devel.ringlet.net/sysutils/prips/                                                | print the IP addresses in a range
+                                              | 1.2.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/you-get                             | 9999                                      |        | http://www.soimort.org/you-get                                                          | A video downloader for YouTube, Youku, niconico and a few other sites
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -349,8 +348,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash                              | 1.11.4                                    |        | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.19.23                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
-                                              | 0.19.25                                   |        |                                                                                         |
+ net-proxy/clash-for-windows-bin              | 0.19.26                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                              | 0.19.27                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |        | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -361,8 +360,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                         | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/v2rayA                             | 1.5.7                                     |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
-                                              | 1.5.8.1                                   |        |                                                                                         |
+ net-proxy/v2rayA                             | 1.5.8.1                                   |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
+                                              | 1.5.9.1698.1                              |        |                                                                                         |
    net-proxy/Xray                             | 1.5.5-r2                                  | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
      dev-libs/v2ray-domain-list-community-bin | 20220728161132                            | RD     | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
      dev-libs/v2ray-geoip-bin                 | 202207280056                              | RD     | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
@@ -388,16 +387,13 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/yaourt                              | 1.2.2                                     |        | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-apps/zypper                              | 1.14.51                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
-                                              | 1.14.52                                   |        |                                                                                         |
+ sys-apps/zypper                              | 1.14.55                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
                                               | 9999                                      |        |                                                                                         |
-   sys-libs/libzypp                           | 17.29.1                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
-                                              | 17.29.5                                   |        |                                                                                         |
+   sys-libs/libzypp                           | 17.31.0                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
                                               | 9999                                      |        |                                                                                         |
-     sys-libs/libsolv                         | 0.7.21                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
+     sys-libs/libsolv                         | 0.7.22                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
                                               | 9999                                      |        |                                                                                         |
-       app-arch/zchunk                        | 1.1.16                                    | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
-                                              | 1.2.0                                     |        |                                                                                         |
+       app-arch/zchunk                        | 1.2.2                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                  | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
@@ -420,8 +416,8 @@
                                               | 5.18.16                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.18.13                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.18.15                                   |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.19.2                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.19.3                                    |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.59                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 5.18.16                                   |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD     | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
@@ -465,11 +461,13 @@
  x11-themes/lxice                             | 0.1.0                                     |        | http://lxde.sf.net/                                                                     | LXDE theme for IceWM
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/nordic                            | 2.1.0                                     |        | https://github.com/EliverLara/Nordic                                                    | Dark Gtk3.20+ theme created using the awesome Nord color pallete
+                                              | 2.2.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/nordzy-cursors                    | 0.5.0                                     |        | https://github.com/alvatip/Nordzy-cursors                                               | Cursor theme using the Nord color palette and based on Vimix and cz-Viator
+                                              | 0.6.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-themes/nordzy-icon                       | 1.3                                       |        | https://github.com/alvatip/Nordzy-icon                                                  | A free and open source icon theme for Linux desktops using the Nord color palette
-                                              | 1.5                                       |        |                                                                                         |
+ x11-themes/nordzy-icon                       | 1.5                                       |        | https://github.com/alvatip/Nordzy-icon                                                  | A free and open source icon theme for Linux desktops using the Nord color palette
+                                              | 1.6                                       |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/smplayer-themes-nonfree           | 0.1.0-r1                                  |        | http://smplayer.sourceforge.net/                                                        | Icon themes for smplayer
                                               | 0.1.1-r1                                  |        |                                                                                         |
