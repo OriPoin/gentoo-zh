@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-08-26 21:30:21 CST)
+(The last generation time: 2022-08-31 17:09:49 CST)
 
 ### Packages
 
@@ -347,6 +347,7 @@
  net-print/epson-inkjet-printer_201207w       | 1.0.0                                     |        | http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX                              | Epson printer driver (L110, L210, L300, L350, L355, L550, L555)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash                              | 1.11.4                                    |        | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
+                                              | 1.11.8                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-for-windows-bin              | 0.19.26                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
                                               | 0.19.27                                   |        |                                                                                         |
@@ -360,8 +361,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                         | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/v2rayA                             | 1.5.8.1                                   |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
-                                              | 1.5.9.1698.1                              |        |                                                                                         |
+ net-proxy/v2rayA                             | 1.5.9.1698.1                              |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
    net-proxy/Xray                             | 1.5.5-r2                                  | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
      dev-libs/v2ray-domain-list-community-bin | 20220728161132                            | RD     | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
      dev-libs/v2ray-geoip-bin                 | 202207280056                              | RD     | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
@@ -410,7 +410,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-libs/elog-functions                      | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log eclass functions of OpenRC
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-process/btop                             | 1.2.8                                     |        | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
+ sys-process/btop                             | 1.2.9                                     |        | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.61                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
                                               | 5.18.19                                   |        |                                                                                         |
