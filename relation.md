@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-09-23 17:38:07 CST)
+(The last generation time: 2022-10-09 21:14:10 CST)
 
 ### Packages
 
@@ -418,18 +418,18 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-process/btop                             | 1.2.9                                     |        | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                          | 5.15.68                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
-                                              | 5.19.9                                    |        |                                                                                         |
+ virtual/dist-kernel                          | 5.15.72                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
+                                              | 5.19.14                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.19.8                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                               | 5.19.9                                    |        |                                                                                         |
-   sys-kernel/xanmod-kernel                   | 5.15.68                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                              | 5.19.9                                    |        |                                                                                         |
+   sys-kernel/xanmod-kernel                   | 5.15.72                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                              | 5.19.14                                   |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD     | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
                                               | 5.15.14                                   |        |                                                                                         |
-   sys-kernel/xanmod-sources                  | 5.15.68                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                              | 5.19.8                                    |        |                                                                                         |
+   sys-kernel/xanmod-sources                  | 5.15.72                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+                                              | 5.19.14                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/openvscode-server-bin               | 1.70.1                                    |        | https://github.com/gitpod-io/openvscode-server                                          | VS Code that runs a server on remote and allows access through a web browser
                                               | 1.71.2                                    |        |                                                                                         |
