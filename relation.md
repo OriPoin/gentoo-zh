@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-11-04 17:39:16 CST)
+(The last generation time: 2022-11-08 16:30:31 CST)
 
 ### Packages
 
@@ -142,6 +142,7 @@
  dev-cpp/tgbot-cpp                            | 1.3                                       |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
                                               | 1.3_p220616                               |        |                                                                                         |
                                               | 1.3_p220911                               |        |                                                                                         |
+                                              | 1.4                                       |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/dbeaver-bin                           | 22.1.0                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -281,6 +282,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/chinadns                             | 1.3.2                                     |        | https://github.com/clowwindy/ChinaDNS                                                   | Protect yourself against DNS poisoning in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-dns/dnsmasq-china-list                   | 9999                                      |        | https://github.com/felixonmars/dnsmasq-china-list                                       | Chinese-specific configuration to improve your favorite DNS server.
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/mosdns-cn-bin                        | 1.4.0                                     |        | https://github.com/IrineSistiana/mosdns-cn                                              | A DNS forwarder
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/phddns                               | 2.0.6.32828                               |        | http://hsk.oray.com/                                                                    | Phddns
@@ -299,6 +302,8 @@
                                               | 0.1.29                                    |        |                                                                                         |
      dev-libs/libdatrie                       | 0.2.13                                    |  D, RD | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-im/telegram-desktop                      | 4.3.0                                     |        | https://desktop.telegram.org                                                            | Official desktop client for Telegram
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/telegram-purple                       | 1.4.7-r1                                  |        | https://github.com/majn/telegram-purple                                                 | Libpurple (Pidgin) plugin for using a Telegram account
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -307,6 +312,7 @@
  net-im/weixin-uos                            | 2.1.5                                     |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/wemeet                                | 2.8.0.3-r1                                |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
+                                              | 3.11.0.402                                |        |                                                                                         |
                                               | 3.8.0.2-r1                                |        |                                                                                         |
                                               | 3.9.0.1                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -353,8 +359,8 @@
    media-gfx/sane-backends                    | 9999                                      |  D, RD | http://www.sane-project.org/                                                            | Scanner Access Now Easy - Backends
    media-libs/libjpeg8                        | 2.1.4                                     |  D, RD | https://libjpeg-turbo.org/                                                              | MMX, SSE, and SSE2 SIMD accelerated JPEG library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.20.5                                    |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
-                                              | 0.20.6                                    |        |                                                                                         |
+ net-proxy/clash-for-windows-bin              | 0.20.6                                    |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                              | 0.20.7                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-verge-bin                    | 1.1.0                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
                                               | 1.1.1                                     |        |                                                                                         |
@@ -371,10 +377,10 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/v2rayA                             | 1.5.9.1698.1                              |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
                                               | 9999                                      |        |                                                                                         |
-   net-proxy/Xray                             | 1.5.5-r2                                  | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
-                                              | 1.6.0                                     |        |                                                                                         |
-     dev-libs/v2ray-domain-list-community-bin | 20220927022658                            |  D, RD | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
-     dev-libs/v2ray-geoip-bin                 | 202209220104                              |  D, RD | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
+   net-proxy/Xray                             | 1.6.0                                     | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
+                                              | 1.6.1                                     |        |                                                                                         |
+     dev-libs/v2ray-domain-list-community-bin | 20221103024626                            |  D, RD | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
+     dev-libs/v2ray-geoip-bin                 | 202211030059                              |  D, RD | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
    net-proxy/v2ray                            | 4.45.0                                    | RD     | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
                                               | 4.45.2                                    |        |                                                                                         |
                                               | 5.1.0-r1                                  |        |                                                                                         |
@@ -389,7 +395,7 @@
                                               | 3.5.7-r2                                  |        |                                                                                         |
                                               | 3.5.8                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda                        | 6.5.15                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA
+ sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-libs/libticalcs2                         | 9999                                      |        | http://lpg.ticalc.org/prj_tilp/                                                         | Library for communication with TI calculators
    sci-libs/libtifiles2                       | 9999                                      |  D, RD | http://lpg.ticalc.org/prj_tilp/                                                         | Library for TI calculator files
@@ -427,18 +433,18 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-libs/elog-functions                      | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log eclass functions of OpenRC
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                          | 5.15.72                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
-                                              | 5.19.14                                   |        |                                                                                         |
+ virtual/dist-kernel                          | 5.15.75                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
+                                              | 6.0.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.19.14                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.19.16                                   |        |                                                                                         |
-   sys-kernel/xanmod-kernel                   | 5.15.72                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                              | 5.19.14                                   |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.19.16                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.0.7                                     |        |                                                                                         |
+   sys-kernel/xanmod-kernel                   | 5.15.75                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                              | 6.0.7                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD     | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
                                               | 5.15.14                                   |        |                                                                                         |
-   sys-kernel/xanmod-sources                  | 5.15.72                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                              | 5.19.14                                   |        |                                                                                         |
+   sys-kernel/xanmod-sources                  | 5.15.75                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+                                              | 6.0.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/openvscode-server-bin               | 1.71.2                                    |        | https://github.com/gitpod-io/openvscode-server                                          | VS Code that runs a server on remote and allows access through a web browser
                                               | 1.72.2                                    |        |                                                                                         |
