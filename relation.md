@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-11-08 16:30:31 CST)
+(The last generation time: 2022-12-04 13:52:40 CST)
 
 ### Packages
 
@@ -35,33 +35,34 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-chewing                       | 5.0.12                                    |        | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-i18n/fcitx-kkc                           | 5.0.10                                    |        | https://github.com/fcitx/fcitx5-kkc                                                     | Japanese Kana Kanji conversion engine for Fcitx5
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-meta                          | 5.0.12-r2                                 |        | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
-   app-i18n/fcitx-chinese-addons              | 5.0.14                                    | RD     | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
-                                              | 5.0.15-r1                                 |        |                                                                                         |
+   app-i18n/fcitx-chinese-addons              | 5.0.15-r1                                 | RD     | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
+                                              | 5.0.16                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
      app-i18n/fcitx-lua                       | 5.0.7-r1                                  |  D, RD | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
                                               | 9999                                      |        |                                                                                         |
-     app-i18n/fcitx-qt                        | 5.0.14                                    |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
-                                              | 5.0.15-r1                                 |        |                                                                                         |
+     app-i18n/fcitx-qt                        | 5.0.15-r1                                 |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
+                                              | 5.0.16                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
-     app-i18n/libime                          | 1.0.14                                    |  D, RD | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
+     app-i18n/libime                          | 1.0.16                                    |  D, RD | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
                                               | 9999                                      |        |                                                                                         |
-   app-i18n/fcitx-configtool                  | 5.0.14                                    | RD     | https://fcitx-im.org/                                                                   | Configuration module for Fcitx
-                                              | 5.0.15                                    |        |                                                                                         |
+   app-i18n/fcitx-configtool                  | 5.0.15                                    | RD     | https://fcitx-im.org/                                                                   | Configuration module for Fcitx
+                                              | 5.0.16                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
-   app-i18n/fcitx-gtk                         | 5.0.17-r1                                 | RD     | https://github.com/fcitx/fcitx5-gtk                                                     | Gtk im module for fcitx5 and glib based dbus client library
-                                              | 5.0.18                                    |        |                                                                                         |
-                                              | 5.0.19                                    |        |                                                                                         |
+   app-i18n/fcitx-gtk                         | 5.0.20                                    | RD     | https://github.com/fcitx/fcitx5-gtk                                                     | Gtk im module for fcitx5 and glib based dbus client library
+                                              | 5.0.21                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-hangul                      | 5.0.10                                    | RD     | https://fcitx-im.org/                                                                   | Korean Hangul input method for Fcitx
-   app-i18n/fcitx-kkc                         | 5.0.10                                    | RD     | https://github.com/fcitx/fcitx5-kkc                                                     | Japanese Kana Kanji conversion engine for Fcitx5
-   app-i18n/fcitx-rime                        | 5.0.14                                    | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
+   app-i18n/fcitx-rime                        | 5.0.15                                    | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
                                               | 9999                                      |        |                                                                                         |
      app-i18n/rime-prelude                    | 20220122                                  |  D, RD | https://github.com/rime/rime-prelude                                                    | Essential files for building up your Rime configuration
    app-i18n/fcitx-skk                         | 5.0.13                                    | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-table-extra                   | 5.0.11                                    |        | https://github.com/fcitx/fcitx5-table-extra                                             | Provides extra table for Fcitx, including Boshiamy, Zhengma, Cangjie, and Quick
+                                              | 5.0.12                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-table-other                   | 5.0.10                                    |        | https://github.com/fcitx/fcitx5-table-other                                             | Provides some other tables for Fcitx, fork from ibus-table-others, scim-tables
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -79,10 +80,11 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/sogoupinyin                         | 4.0.1.2123                                |        | http://pinyin.sogou.com/linux/                                                          | Sogou Pinyin input method.
    app-i18n/fcitx                             | 4.2.9.8                                   |  D, RD | https://fcitx-im.org/                                                                   | Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
-                                              | 5.0.18                                    |        |                                                                                         |
-                                              | 5.0.19-r1                                 |        |                                                                                         |
+                                              | 5.0.20                                    |        |                                                                                         |
+                                              | 5.0.21                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
      x11-libs/xcb-imdkit                      | 1.0.3                                     |  D, RD | https://github.com/fcitx/xcb-imdkit                                                     | Input method development support for xcb
+                                              | 1.0.4                                     |        |                                                                                         |
    net-dns/libidn11                           | 1.33                                      |  D, RD | https://www.gnu.org/software/libidn/                                                    | Internationalized Domain Names (IDN) implementation
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/wlpinyin                            | 9999                                      |        | https://github.com/xhebox/wlpinyin                                                      | Experimental chinese wayland input method(IME)
@@ -110,8 +112,8 @@
                                               | 5.14.14                                   |        |                                                                                         |
                                               | 5.9.18                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-office/freeoffice                        | 1050                                      |        | https://www.freeoffice.com                                                              | A complete, free Microsoft Office-compatible alternative office suite.
-                                              | 1054                                      |        |                                                                                         |
+ app-office/freeoffice                        | 1054                                      |        | https://www.freeoffice.com                                                              | A complete, free Microsoft Office-compatible alternative office suite.
+                                              | 1058                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/wps-office                        | 11.1.0.10976                              |        | http://www.wps.cn/product/wpslinux/                                                     | WPS Office is an office productivity suite, Here is the Chinese version
                                               | 11.1.0.11664                              |        |                                                                                         |
@@ -181,6 +183,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/lldb-mi                             | 9999                                      |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-util/marksman-bin                        | 2022.11.25                                |        | https://github.com/artempyanykh/marksman                                                | A language server for Markdown
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/lazygit                              | 0.35                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
@@ -210,9 +214,11 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-mono-sc-nerd              | 2.1.0                                     |        | https://github.com/laishulu/Sarasa-Mono-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ media-fonts/smiley-sans                      | 1.0.0                                     |        | https://github.com/atelier-anchor/smiley-sans                                           | An open-source font for Chinese.
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/taipei-sans-tc                   | 1.0                                       |        | https://sites.google.com/view/jtfoundry/                                                | JT Foundry - Taipei Sans TC Beta font
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/tiejili                          | 1.010                                     |        | https://github.com/Buernia/Tiejili                                                      | An open-source font that extends Reggae One to Chinese.
+ media-fonts/tiejili                          | 1.100                                     |        | https://github.com/Buernia/Tiejili                                                      | An open-source font that extends Reggae One to Chinese.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/ttf-wps-fonts                    | 1.0                                       |        | https://github.com/iamdh4/ttf-wps-fonts                                                 | Symbol fonts required by wps-office
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -249,14 +255,11 @@
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.23.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/go-musicfox                      | 3.2.2                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go
-----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/go-musicfox-bin                  | 3.0.2                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go(bin version)
-                                              | 3.2.2                                     |        |                                                                                         |
+ media-sound/go-musicfox                      | 3.4.0                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                           | 2.2.0                                     |        | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/listen1_desktop-bin              | 2.26.2                                    |        | http://listen1.github.io/listen1                                                        | one for all free music in China
+ media-sound/listen1_desktop-bin              | 2.27.0                                    |        | http://listen1.github.io/listen1                                                        | one for all free music in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/lx-music-desktop-bin             | 1.21.0                                    |        | https://github.com/lyswhut/lx-music-desktop                                             | 一个基于 electron 的音乐软件
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -264,6 +267,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/netease-cloud-music-gtk          | 1.2.2                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK for Linux
                                               | 2.0.3                                     |        |                                                                                         |
+                                              | 2.1.0                                     |        |                                                                                         |
    media-plugins/osdlyrics                    | 0.5.10-r1                                 | RD     | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
                                               | 0.5.11                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
@@ -277,6 +281,8 @@
  media-video/Revda                            | 5.1.1                                     |        | https://github.com/THMonster/Revda                                                      | Cute and useful Live Stream Player with danmaku support
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/avplayer                         | 9999                                      |        | http://avplayer.avplayer.org                                                            | avplayer is a p2p video downloader and player
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ media-video/mpv-handler                      | 0.3.0                                     |        | https://github.com/akiirui/mpv-handler                                                  | A protocol handler for mpv, written by Rust.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/tenvideo                         | 1.0.10                                    |        | https://v.qq.com/download.html#linux                                                    | Tencent videos
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -297,12 +303,12 @@
    app-emulation/deepin-wine6-stable          | 6.0.0.19-r1                               |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
      app-emulation/deepin-udis86              | 1.72-r4                                   | RD     | https://www.deepin.org                                                                  | Deepin Version of Wine
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/dingtalk                              | 1.4.0.20422                               |        | https://gov.dingtalk.com                                                                | Communication platform that supports video and audio conferencing
+ net-im/dingtalk                              | 1.4.0.20909                               |        | https://gov.dingtalk.com                                                                | Communication platform that supports video and audio conferencing
    dev-libs/libthai                           | 0.1.28                                    |  D, RD | https://github.com/tlwg/libthai                                                         | A a set of Thai language support routines
                                               | 0.1.29                                    |        |                                                                                         |
      dev-libs/libdatrie                       | 0.2.13                                    |  D, RD | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/telegram-desktop                      | 4.3.0                                     |        | https://desktop.telegram.org                                                            | Official desktop client for Telegram
+ net-im/telegram-desktop                      | 4.3.4                                     |        | https://desktop.telegram.org                                                            | Official desktop client for Telegram
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/telegram-purple                       | 1.4.7-r1                                  |        | https://github.com/majn/telegram-purple                                                 | Libpurple (Pidgin) plugin for using a Telegram account
                                               | 9999                                      |        |                                                                                         |
@@ -359,11 +365,11 @@
    media-gfx/sane-backends                    | 9999                                      |  D, RD | http://www.sane-project.org/                                                            | Scanner Access Now Easy - Backends
    media-libs/libjpeg8                        | 2.1.4                                     |  D, RD | https://libjpeg-turbo.org/                                                              | MMX, SSE, and SSE2 SIMD accelerated JPEG library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.20.6                                    |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
-                                              | 0.20.7                                    |        |                                                                                         |
+ net-proxy/clash-for-windows-bin              | 0.20.10                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                              | 0.20.9                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge-bin                    | 1.1.0                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
-                                              | 1.1.1                                     |        |                                                                                         |
+ net-proxy/clash-verge-bin                    | 1.1.1                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
+                                              | 1.2.0                                     |        |                                                                                         |
    net-proxy/clash                            | 1.11.8-r1                                 | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |        | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
@@ -410,14 +416,16 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/yaourt                              | 1.2.2                                     |        | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-apps/zypper                              | 1.14.55                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
+ sys-apps/zypper                              | 1.14.58                                   |        | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
                                               | 9999                                      |        |                                                                                         |
-   sys-libs/libzypp                           | 17.31.0                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
+   sys-libs/libzypp                           | 17.31.5                                   | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
                                               | 9999                                      |        |                                                                                         |
      sys-libs/libsolv                         | 0.7.22                                    | RD     | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
                                               | 9999                                      |        |                                                                                         |
-       app-arch/zchunk                        | 1.2.2                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
+       app-arch/zchunk                        | 1.2.3                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                               | 9999                                      |        |                                                                                         |
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ sys-boot/ventoy-bin                          | 1.0.81                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                  | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -437,8 +445,8 @@
                                               | 6.0.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.19.16                                   | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 6.0.7                                     |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 6.0.11                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.0.9                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.75                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 6.0.7                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD     | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
@@ -455,8 +463,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-apps/xcur2png                            | 0.7.1                                     |        | https://github.com/eworm-de/xcur2png                                                    | Convert X cursors to PNG images
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-libs/libva-nvdec-driver                  | 0.0.7                                     |        | https://github.com/elFarto/nvidia-vaapi-driver                                          | NVDEC Backend for Video Acceleration (VA) API
-                                              | 9999                                      |        |                                                                                         |
+ x11-libs/glbinding                           | 3.1.0                                     |        | https://glbinding.org/                                                                  | A C++ binding for the OpenGL API
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-misc/9menu                               | 1.10                                      |        | https://packages.debian.org/source/sid/9menu                                            | Create X menus from the shell
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -477,7 +484,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-plugins/vicious                          | 9999                                      |        | http://awesome.naquadah.org/wiki/Vicious                                                | Modular widget library for x11-wm/awesome
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-terms/wezterm-bin                        | 20220905                                  |        | https://wezfurlong.org/wezterm                                                          | A terminal emulator and multiplexer implemented in Rust
+ x11-terms/wezterm-bin                        | 20221119                                  |        | https://wezfurlong.org/wezterm                                                          | A terminal emulator and multiplexer implemented in Rust
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/fcitx5-breeze                     | 1.0.0                                     |        | https://github.com/scratch-er/fcitx5-breeze                                             | Fcitx5 theme to match KDE's Breeze style.
                                               | 2.0.0-r1                                  |        |                                                                                         |
