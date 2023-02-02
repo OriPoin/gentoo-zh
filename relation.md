@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-01-19 10:16:42 CST)
+(The last generation time: 2023-02-02 16:58:20 CST)
 
 ### Packages
 
@@ -12,7 +12,8 @@
  app-admin/zenmonitor                         | 1.4.2                                     |        | https://github.com/ocerman/zenmonitor                                                   | Zen monitor is monitoring software for AMD Zen-based CPUs
    sys-kernel/zenpower                        | 0.1.12-r1                                 |  D, RD | https://github.com/ocerman/zenpower                                                     | Linux kernel driver for reading sensors of AMD Zen family CPUs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-backup/btrfs-assistant                   | 1.6.3                                     |        | https://gitlab.com/btrfs-assistant/btrfs-assistant                                      | A GUI management tool to make managing a Btrfs filesystem easier.
+ app-backup/btrfs-assistant                   | 1.7                                       |        | https://gitlab.com/btrfs-assistant/btrfs-assistant                                      | A GUI management tool to make managing a Btrfs filesystem easier.
+                                              | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-backup/snapper-gui                       | 220626                                    |        | https://github.com/ricardomv/snapper-gui                                                | GUI for snapper, a tool for Linux filesystem snapshot management
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -207,14 +208,14 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-misc/oh-my-git-bin                     | 0.6.5                                     |        | https://ohmygit.org/                                                                    | An interactive Git learning game!
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- games-util/winegame-client-bin               | 0.5.9.4                                   |        | https://winegame.net/                                                                   | An open source gaming platform for GNU/Linux
+ games-util/winegame-client-bin               | 0.5.10.5                                  |        | https://winegame.net/                                                                   | An open source gaming platform for GNU/Linux
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  kde-misc/plasma-applet-netspeed-widget       | 1.9                                       |        | https://www.kde-look.org/p/998895/                                                      | Plasma 5 widget that displays the currently used network bandwidth.
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  mail-client/thunderbird                      | 106.0-r5                                  |        | https://www.thunderbird.net                                                             | Thunderbird Mail Client
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/Plangothic                       | 0.7.5708                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic                          | 遍黑体项目（Plangothic Project）
+ media-fonts/Plangothic                       | 0.7.5720                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic                          | 遍黑体项目（Plangothic Project）
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/cwtex-q-fonts                    | 0.2                                       |        | https://code.google.com/p/cwtex-q-fonts/                                                | Those five TrueType fonts are transformed from cwTeX Traditional Chinese Type 1 fonts(Version 1.1).
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -222,11 +223,12 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                    | 1.1                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei                   | 1.003                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei                   | 1.005                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                       | 2.2.2                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-gothic                    | 0.38.0                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+                                              | 0.39.0                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-mono-sc-nerd              | 2.1.0                                     |        | https://github.com/laishulu/Sarasa-Mono-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -289,19 +291,23 @@
                                               | 0.5.11                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ media-sound/qqmusic                          | 1.1.5                                     |        | https://y.qq.com/                                                                       | Tencent QQ Music, converted from .deb package
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                         | 0.7.6                                     |        | https://github.com/tramhao/termusic                                                     | Terminal Music Player written in Rust.
                                               | 0.7.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/yesplaymusic-bin                 | 0.4.4-r1                                  |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
-                                              | 0.4.5                                     |        |                                                                                         |
+ media-sound/yesplaymusic-bin                 | 0.4.5                                     |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
+                                              | 0.4.6                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/youtube-music-bin                | 1.18.0                                    |        | https://th-ch.github.io/youtube-music/                                                  | YouTube Music Desktop App bundled with custom plugins
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/avplayer                         | 9999                                      |        | http://avplayer.avplayer.org                                                            | avplayer is a p2p video downloader and player
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-video/mpv-handler                      | 0.3.2                                     |        | https://github.com/akiirui/mpv-handler                                                  | A protocol handler for mpv, written by Rust.
+ media-video/mpv-handler                      | 0.3.3                                     |        | https://github.com/akiirui/mpv-handler                                                  | A protocol handler for mpv, written by Rust.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/tenvideo                         | 1.0.10                                    |        | https://v.qq.com/download.html#linux                                                    | Tencent videos
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-analyzer/besttrace-bin                   | 1.3.2                                     |        | https://www.ipip.net                                                                    | 附带链路可视化的 traceroute 工具
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/chinadns                             | 1.3.2                                     |        | https://github.com/clowwindy/ChinaDNS                                                   | Protect yourself against DNS poisoning in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -318,7 +324,7 @@
    app-emulation/deepin-wine-helper           | 5.1.27-r1                                 |  D, RD | https://www.deepin.org                                                                  | Deepin Wine Helper
      app-emulation/deepin-wine-plugin         | 5.1.13-r1                                 |  D, RD | https://www.deepin.org                                                                  | Deepin Wine plugin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/deepin-wine-wechat                    | 3.4.5.45                                  |        | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
+ net-im/deepin-wine-wechat                    | 3.8.1.26                                  |        | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
    app-emulation/deepin-wine6-stable          | 6.0.0.19-r1                               |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
      app-emulation/deepin-udis86              | 1.72-r4                                   | RD     | https://www.deepin.org                                                                  | Deepin Version of Wine
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -360,7 +366,8 @@
  net-misc/prips                               | 1.0.0                                     |        | http://devel.ringlet.net/sysutils/prips/                                                | print the IP addresses in a range
                                               | 1.2.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/rustdesk-bin                        | 1.1.9                                     |        | https://rustdesk.com/                                                                   | Open source virtual / remote desktop infrastructure for everyone
+ net-misc/remmina-plugin-rustdesk             | 1.0.0.0                                   |        | http://www.muflone.com/remmina-plugin-rustdesk/                                         | A protocol plugin for Remmina to launch a Rustdesk connection.
+   net-misc/rustdesk-bin                      | 1.1.9                                     |  D, RD | https://rustdesk.com/                                                                   | Open source virtual / remote desktop infrastructure for everyone
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/you-get                             | 9999                                      |        | http://www.soimort.org/you-get                                                          | A video downloader for YouTube, Youku, niconico and a few other sites
@@ -371,6 +378,7 @@
    net-p2p/amule-dlp                          | 9999                                      | RD     | https://github.com/persmule/amule-dlp                                                   | aMule with DLP patch, the all-platform eMule p2p client
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-p2p/n2n                                  | 3.0                                       |        | http://www.ntop.org/n2n/                                                                | A Layer Two Peer-to-Peer VPN
+                                              | 3.1.1                                     |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
    acct-group/n2n                             | 0                                         |  D, RD |                                                                                         | A Layer Two Peer-to-Peer VPN
    acct-user/n2n                              | 0                                         |  D, RD |                                                                                         | A Layer Two Peer-to-Peer VPN
@@ -386,6 +394,10 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-for-windows-bin              | 0.20.11                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
                                               | 0.20.12                                   |        |                                                                                         |
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-proxy/clash-meta                         | 1.14.1                                    |        | https://github.com/MetaCubeX/Clash.Meta                                                 | Another Clash Kernel.
+   acct-group/clash-meta                      | 0                                         |  D     |                                                                                         | Another Clash Kernel.
+   acct-user/clash-meta                       | 0                                         |  D     |                                                                                         | Another Clash Kernel.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-premium-bin                  | 2022.11.25                                |        | https://github.com/Dreamacro/clash                                                      | Close-sourced pre-built Clash binary with TUN support
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -424,9 +436,11 @@
                                               | 3.5.7-r2                                  |        |                                                                                         |
                                               | 3.5.8                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA - 高效的国产PCB设计工具
+ sci-electronics/jlc-assistant-bin            | 5.0.69                                    |        | https://www.jlc.com/portal/appDownloadsWithConfig.html                                  | JLC Order Assistant (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                    | 1.9.23                                    |        | https://lceda.cn/                                                                       | 嘉立创EDA(专业版) - 高效的国产PCB设计工具
+ sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ sci-electronics/lceda-pro                    | 1.9.29                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-libs/libticalcs2                         | 9999                                      |        | http://lpg.ticalc.org/prj_tilp/                                                         | Library for communication with TI calculators
    sci-libs/libtifiles2                       | 9999                                      |  D, RD | http://lpg.ticalc.org/prj_tilp/                                                         | Library for TI calculator files
@@ -450,7 +464,7 @@
        app-arch/zchunk                        | 1.2.3                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-boot/ventoy-bin                          | 1.0.87                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
+ sys-boot/ventoy-bin                          | 1.0.88-r2                                 |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                  | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -473,13 +487,13 @@
                                               | 6.1.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 6.1.5                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 6.1.6                                     |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 6.1.7                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.1.8                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.89                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 6.1.7                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
    sys-kernel/xanmod-sources                  | 5.15.89                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                              | 6.1.7                                     |        |                                                                                         |
+                                              | 6.1.8                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/openvscode-server-bin               | 1.71.2                                    |        | https://github.com/gitpod-io/openvscode-server                                          | VS Code that runs a server on remote and allows access through a web browser
                                               | 1.72.2                                    |        |                                                                                         |
