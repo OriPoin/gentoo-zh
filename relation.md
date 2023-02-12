@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-02-09 19:22:15 CST)
+(The last generation time: 2023-02-12 16:04:02 CST)
 
 ### Packages
 
@@ -198,7 +198,9 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-vcs/gitoxide                             | 0.20.0                                    |        | https://github.com/Byron/gitoxide                                                       | A command-line application for interacting with git repositories
+ dev-vcs/gitoxide                             | 0.21.0                                    |        | https://github.com/Byron/gitoxide                                                       | A command-line application for interacting with git repositories
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-vcs/gptcommit                            | 0.1.16                                    |        | https://github.com/zurawiki/gptcommit                                                   | A git prepare-commit-msg hook for summarizing commits with GPT-3.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/lazygit                              | 0.35                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -223,12 +225,12 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                    | 1.1                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei                   | 1.005                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei                   | 1.006                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                       | 2.2.2                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                    | 0.38.0                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
-                                              | 0.39.0                                    |        |                                                                                         |
+ media-fonts/sarasa-gothic                    | 0.39.0                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+                                              | 0.40.0                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-mono-sc-nerd              | 2.1.0                                     |        | https://github.com/laishulu/Sarasa-Mono-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -394,8 +396,8 @@
    media-gfx/sane-backends                    | 9999                                      |  D, RD | http://www.sane-project.org/                                                            | Scanner Access Now Easy - Backends
    media-libs/libjpeg8                        | 2.1.4                                     |  D, RD | https://libjpeg-turbo.org/                                                              | MMX, SSE, and SSE2 SIMD accelerated JPEG library
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.20.11                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
-                                              | 0.20.12                                   |        |                                                                                         |
+ net-proxy/clash-for-windows-bin              | 0.20.15                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                              | 0.20.16                                   |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-meta                         | 1.14.1                                    |        | https://github.com/MetaCubeX/Clash.Meta                                                 | Another Clash Kernel.
    acct-group/clash-meta                      | 0                                         |  D     |                                                                                         | Another Clash Kernel.
@@ -405,8 +407,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-verge-bin                    | 1.2.0                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
                                               | 1.2.1                                     |        |                                                                                         |
-   net-proxy/clash                            | 1.11.8-r1                                 | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
-                                              | 1.12.0                                    |        |                                                                                         |
+   net-proxy/clash                            | 1.12.0                                    | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |        | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -487,15 +488,18 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.89                                   |        |                                                                                         | Virtual to depend on any Distribution Kernel
                                               | 6.1.10                                    |        |                                                                                         |
+                                              | 6.1.9                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 6.1.8                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+   sys-kernel/liquorix-sources                | 6.1.11                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                               | 6.1.9                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.15.89                                   | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 6.1.10                                    |        |                                                                                         |
+                                              | 6.1.9                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
    sys-kernel/xanmod-sources                  | 5.15.89                                   | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
                                               | 6.1.10                                    |        |                                                                                         |
+                                              | 6.1.9                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/openvscode-server-bin               | 1.71.2                                    |        | https://github.com/gitpod-io/openvscode-server                                          | VS Code that runs a server on remote and allows access through a web browser
                                               | 1.72.2                                    |        |                                                                                         |
