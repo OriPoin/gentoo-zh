@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-03-19 18:30:15 CST)
+(The last generation time: 2023-03-19 18:30:57 CST)
 
 ### Packages
 
@@ -56,6 +56,7 @@
                                               | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-gtk                         | 5.0.21                                    | RD     | https://github.com/fcitx/fcitx5-gtk                                                     | Gtk im module for fcitx5 and glib based dbus client library
                                               | 5.0.22                                    |        |                                                                                         |
+                                              | 5.0.23                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-hangul                      | 5.0.11                                    | RD     | https://fcitx-im.org/                                                                   | Korean Hangul input method for Fcitx
    app-i18n/fcitx-rime                        | 5.0.16                                    | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
@@ -64,6 +65,7 @@
                                               | 5.0.20                                    |        |                                                                                         |
                                               | 5.0.21                                    |        |                                                                                         |
                                               | 5.0.22                                    |        |                                                                                         |
+                                              | 5.0.23                                    |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
        x11-libs/xcb-imdkit                    | 1.0.4                                     |  D, RD | https://github.com/fcitx/xcb-imdkit                                                     | Input method development support for xcb
                                               | 1.0.5                                     |        |                                                                                         |
@@ -156,8 +158,8 @@
                                               | 1.4                                       |        |                                                                                         |
                                               | 1.5                                       |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-db/dbeaver-bin                           | 22.1.0                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
-                                              | 22.3.1                                    |        |                                                                                         |
+ dev-db/dbeaver-bin                           | 22.3.1                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
+                                              | 23.0.0                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/mongodb                               | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                               | 6.2.0-r4                                  |        |                                                                                         |
@@ -203,12 +205,14 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/mongodb-compass-bin                 | 1.34.2                                    |        | https://mongodb.com/compass                                                             | The GUI for MongoDB
                                               | 1.35.0                                    |        |                                                                                         |
+                                              | 1.36.0                                    |        |                                                                                         |
+                                              | 1.36.1                                    |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/gitoxide                             | 0.23.0                                    |        | https://github.com/Byron/gitoxide                                                       | A command-line application for interacting with git repositories
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-vcs/gptcommit                            | 0.3.0                                     |        | https://github.com/zurawiki/gptcommit                                                   | A git prepare-commit-msg hook for summarizing commits with GPT-3.
+ dev-vcs/gptcommit                            | 0.4.0                                     |        | https://github.com/zurawiki/gptcommit                                                   | A git prepare-commit-msg hook for summarizing commits with GPT-3.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/lazygit                              | 0.35                                      |        | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -288,7 +292,7 @@
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.23.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/go-musicfox                      | 3.7.3                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go
+ media-sound/go-musicfox                      | 3.7.4                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                           | 2.2.0                                     |        | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -353,13 +357,19 @@
  net-im/telegram-purple                       | 1.4.7-r1                                  |        | https://github.com/majn/telegram-purple                                                 | Libpurple (Pidgin) plugin for using a Telegram account
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/tencent-qq                            | 3.1.0_p9572                               |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
+ net-im/tencent-qq                            | 3.1.0_p9572-r1                            |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
+   media-libs/vips                            | 8.14.1                                    | RD     | https://libvips.github.io/libvips/                                                      | VIPS Image Processing Library
+   x11-misc/flatpak-xdg-utils                 | 1.0.5                                     | RD     | https://github.com/flatpak/flatpak-xdg-utils                                            | Utilities for containerized apps to launch programs outside the container
+   x11-misc/snapd-xdg-open                    | 9999                                      | RD     | https://github.com/snapcore/snapd-xdg-open                                              | Software for opening links from snaps in desktop
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/weixin-uos                            | 2.1.5-r1                                  |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/wemeet                                | 3.12.0.400-r2                             |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
+                                              | 3.14.0.401                                |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-libs/jzmq                                | 9999                                      |        | http://www.zeromq.org/bindings:java                                                     | jzmq
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/aliyundrive-webdav                  | 2.1.0-r1                                  |        | https://github.com/messense/aliyundrive-webdav.git                                      | WebDAV server for AliyunDrive
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/aliyunpan                           | 0.2.6                                     |        | https://github.com/tickstep/aliyunpan                                                   | aliyunpan cli client, support Webdav service, JavaScript plugin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -371,6 +381,13 @@
                                               | 4.3.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/baidupcs-go                         | 3.9.0                                     |        | https://github.com/qjfoidnh/BaiduPCS-Go                                                 | The terminal utility for Baidu Network Disk (Golang Version).
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/biliup-app                          | 0.4.1                                     |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
+   dev-util/tauri-cli                         | 1.2.3                                     | BD     | https://github.com/tauri-apps/tauri                                                     | Command line interface for building Tauri apps
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/biliup-app-bin                      | 0.4.1                                     |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/biliup-rs                           | 0.1.15                                    |        | https://github.com/ForgQi/biliup-rs                                                     | A CLI Tool for Upload video to bilibili.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/networkmanager-l2tp                 | 9999                                      |        | http://www.gnome.org/projects/NetworkManager/                                           | NetworkManager L2TP plugin
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -438,6 +455,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/v2rayA                             | 1.5.9.1698.1                              |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
                                               | 2.0.1-r1                                  |        |                                                                                         |
+                                              | 2.0.2                                     |        |                                                                                         |
                                               | 9999                                      |        |                                                                                         |
    net-proxy/Xray                             | 1.6.0                                     | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
                                               | 1.6.1                                     |        |                                                                                         |
@@ -451,6 +469,8 @@
    net-proxy/v2ray-bin                        | 4.45.0                                    | RD     | https://www.v2fly.org                                                                   | A platform for building proxies to bypass network restrictions.
                                               | 5.1.0-r1                                  |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-proxy/yacd-meta                          | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-wireless/linux-wifi-hotspot              | 9999                                      |        | https://github.com/lakinduakash/linux-wifi-hotspot                                      | Linux Wifi Hotspot
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-chemistry/vesta                          | 3.5.8                                     |        | https://jp-minerals.org/vesta                                                           | Visualization for Electronic and STructural Analysis
@@ -459,7 +479,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/lceda                        | 6.5.22                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                    | 1.9.29                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
+ sci-electronics/lceda-pro                    | 2.0.15                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-libs/libticalcs2                         | 9999                                      |        | http://lpg.ticalc.org/prj_tilp/                                                         | Library for communication with TI calculators
    sci-libs/libtifiles2                       | 9999                                      |  D, RD | http://lpg.ticalc.org/prj_tilp/                                                         | Library for TI calculator files
@@ -483,7 +503,7 @@
        app-arch/zchunk                        | 1.2.3                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-boot/ventoy-bin                          | 1.0.88-r2                                 |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
+ sys-boot/ventoy-bin                          | 1.0.89                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                  | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -509,8 +529,8 @@
                                               | 6.2.7                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 6.1.15                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 6.2.5                                     |        |                                                                                         |
+   sys-kernel/liquorix-sources                | 6.2.5                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 6.2.6                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                   | 6.1.20                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 6.2.7                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                       | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
@@ -542,6 +562,8 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-misc/picom-jonaburg                      | 8                                         |        | https://github.com/jonaburg/picom                                                       | jonaburg's picom fork with dual_kawase blur and rounded corners
                                               | 9999                                      |        |                                                                                         |
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ x11-misc/sddm                                | 9999                                      |        | https://github.com/sddm/sddm                                                            | Simple Desktop Display Manager
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-plugins/vicious                          | 9999                                      |        | http://awesome.naquadah.org/wiki/Vicious                                                | Modular widget library for x11-wm/awesome
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
