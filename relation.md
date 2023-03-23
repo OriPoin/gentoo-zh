@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-03-19 18:30:57 CST)
+(The last generation time: 2023-03-23 23:10:19 CST)
 
 ### Packages
 
@@ -37,6 +37,8 @@
  app-emulation/winetricks-zh                  | 9999                                      |        | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/dvp                                 | 1.2.1-r1                                  |        | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-i18n/fcitx-anthy                         | 5.0.14                                    |        | https://fcitx-im.org/                                                                   | Japanese Anthy input methods for Fcitx5
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-chewing                       | 5.0.14                                    |        | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -197,7 +199,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/jd-gui                              | 1.6.6                                     |        | http://jd.benow.ca/                                                                     | A standalone graphical utility that displays Java source codes of .class file
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/jetbrains-toolbox                   | 1.22.10774                                |        | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
+ dev-util/jetbrains-toolbox                   | 1.27.3.14493                              |        | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/lldb-mi                             | 9999                                      |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -292,7 +294,7 @@
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.23.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/go-musicfox                      | 3.7.4                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go
+ media-sound/go-musicfox                      | 3.7.5                                     |        | https://github.com/anhoder                                                              | Command-line Netease Cloud Music written in Go
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                           | 2.2.0                                     |        | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -330,6 +332,8 @@
  media-video/tenvideo                         | 1.0.10                                    |        | https://v.qq.com/download.html#linux                                                    | Tencent videos
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-analyzer/besttrace-bin                   | 1.3.2                                     |        | https://www.ipip.net                                                                    | 附带链路可视化的 traceroute 工具
+----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-analyzer/nali                            | 0.7.1                                     |        | https://github.com/zu1k/nali                                                            | An offline tool for querying IP geographic information and CDN provider.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/chinadns                             | 1.3.2                                     |        | https://github.com/clowwindy/ChinaDNS                                                   | Protect yourself against DNS poisoning in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -380,7 +384,7 @@
  net-misc/baidunetdisk                        | 4.14.5                                    |        | https://pan.baidu.com/                                                                  | Baidu Net Disk is a cloud storage client (Linux Version)
                                               | 4.3.0                                     |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/baidupcs-go                         | 3.9.0                                     |        | https://github.com/qjfoidnh/BaiduPCS-Go                                                 | The terminal utility for Baidu Network Disk (Golang Version).
+ net-misc/baidupcs-go                         | 3.9.1                                     |        | https://github.com/qjfoidnh/BaiduPCS-Go                                                 | The terminal utility for Baidu Network Disk (Golang Version).
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/biliup-app                          | 0.4.1                                     |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
    dev-util/tauri-cli                         | 1.2.3                                     | BD     | https://github.com/tauri-apps/tauri                                                     | Command line interface for building Tauri apps
@@ -441,7 +445,7 @@
                                               | 1.2.1                                     |        |                                                                                         |
    net-proxy/clash                            | 1.13.0                                    | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/dae                                | 0.1.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
+ net-proxy/dae                                | 0.1.1                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
                                               | 9999                                      |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |        | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
@@ -453,9 +457,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                         | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/v2rayA                             | 1.5.9.1698.1                              |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
-                                              | 2.0.1-r1                                  |        |                                                                                         |
-                                              | 2.0.2                                     |        |                                                                                         |
+ net-proxy/v2rayA                             | 2.0.4                                     |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
                                               | 9999                                      |        |                                                                                         |
    net-proxy/Xray                             | 1.6.0                                     | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
                                               | 1.6.1                                     |        |                                                                                         |
