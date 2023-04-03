@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-04-02 16:01:50 CST)
+(The last generation time: 2023-04-03 20:08:28 CST)
 
 ### Packages
 
@@ -23,7 +23,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx-pinyin-moegirl               | 20230114                                  |        | https://github.com/outloudvi/mw2fcitx                                                   | Fcitx 5 Pinyin Dictionary from zh.moegirl.org.cn
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-dicts/fcitx-pinyin-zhwiki                | 20230128                                  |        | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
+ app-dicts/fcitx-pinyin-zhwiki                | 20230329                                  |        | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/appflowy-bin                     | 0.0.5.3                                   |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
                                               | 0.0.6                                     |        |                                                                                         |
@@ -160,8 +160,7 @@
                                               | 1.4                                       |        |                                                                                         |
                                               | 1.5                                       |        |                                                                                         |
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-db/dbeaver-bin                           | 22.3.1                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
-                                              | 23.0.0                                    |        |                                                                                         |
+ dev-db/dbeaver-bin                           | 23.0.1                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/mongodb                               | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                               | 6.2.0-r4                                  |        |                                                                                         |
@@ -284,13 +283,13 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-plugins/gimp-gap                       | 2.8.0                                     |        | http://www.gimp.org/                                                                    | Gimp Animation Package
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/feeluown                         | 3.8.7                                     |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
+ media-sound/feeluown                         | 3.8.10                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
                                               | 3.8.9                                     |        |                                                                                         |
    dev-python/fuo-kuwo                        | 0.1.5                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
                                               | 0.1.6                                     |        |                                                                                         |
    dev-python/fuo-local                       | 0.3                                       |  D     | https://github.com/feeluown/feeluown-local                                              | local music support for feeluown
-   dev-python/fuo-netease                     | 0.9.2                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
-                                              | 0.9.3                                     |        |                                                                                         |
+   dev-python/fuo-netease                     | 0.9.3                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
+                                              | 0.9.4                                     |        |                                                                                         |
    dev-python/fuo-qqmusic                     | 0.4.1                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.23.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
@@ -299,7 +298,7 @@
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                           | 2.2.0                                     |        | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/listen1_desktop-bin              | 2.27.0                                    |        | http://listen1.github.io/listen1                                                        | one for all free music in China
+ media-sound/listen1_desktop-bin              | 2.28.0                                    |        | http://listen1.github.io/listen1                                                        | one for all free music in China
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/lx-music-desktop-bin             | 2.1.2                                     |        | https://github.com/lyswhut/lx-music-desktop                                             | 一个基于 electron 的音乐软件
 ----------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
