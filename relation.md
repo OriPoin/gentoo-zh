@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-06-30 23:18:34 CST)
+(The last generation time: 2023-07-01 21:22:50 CST)
 
 ### Packages
 
@@ -235,7 +235,7 @@
                                             | 1.35.0                                    |        |                                                                                         |
                                             | 1.36.4                                    |        |                                                                                         |
                                             | 1.37.0                                    |        |                                                                                         |
-                                            | 1.38.0                                    |        |                                                                                         |
+                                            | 1.38.2                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator             | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -493,7 +493,7 @@
                                             | 0.2.0_rc4                                 |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/daed                             | 0.1.0                                     |        | https://github.com/daeuniverse/daed                                                     | A Modern Dashboard For dae
+ net-proxy/daed                             | 0.1.0-r1                                  |        | https://github.com/daeuniverse/daed                                                     | A Modern Dashboard For dae
                                             | 9999                                      |        |                                                                                         |
    sys-apps/pnpm                            | 8.6.2                                     | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -573,23 +573,29 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-power/tlpui                            | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                        | 6.1.28                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
-                                            | 6.1.29                                    |        |                                                                                         |
-                                            | 6.3.2                                     |        |                                                                                         |
-                                            | 6.3.3                                     |        |                                                                                         |
+ virtual/dist-kernel                        | 6.1.33                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
+                                            | 6.1.34                                    |        |                                                                                         |
+                                            | 6.1.35                                    |        |                                                                                         |
+                                            | 6.3.10                                    |        |                                                                                         |
+                                            | 6.3.8                                     |        |                                                                                         |
+                                            | 6.3.9                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                      | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources              | 6.2.14                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                             | 6.3.6                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel                 | 6.1.28                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                            | 6.1.29                                    |        |                                                                                         |
-                                            | 6.3.2                                     |        |                                                                                         |
-                                            | 6.3.3                                     |        |                                                                                         |
+   sys-kernel/xanmod-kernel                 | 6.1.33                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                            | 6.1.34                                    |        |                                                                                         |
+                                            | 6.1.35                                    |        |                                                                                         |
+                                            | 6.3.10                                    |        |                                                                                         |
+                                            | 6.3.8                                     |        |                                                                                         |
+                                            | 6.3.9                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                     | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources                | 6.1.28                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                            | 6.1.29                                    |        |                                                                                         |
-                                            | 6.3.2                                     |        |                                                                                         |
-                                            | 6.3.3                                     |        |                                                                                         |
+   sys-kernel/xanmod-sources                | 6.1.33                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+                                            | 6.1.34                                    |        |                                                                                         |
+                                            | 6.1.35                                    |        |                                                                                         |
+                                            | 6.3.10                                    |        |                                                                                         |
+                                            | 6.3.8                                     |        |                                                                                         |
+                                            | 6.3.9                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.0.0                                     |        | https://github.com/lencx/ChatGPT                                                        | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
