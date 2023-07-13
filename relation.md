@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-07-12 09:06:47 CST)
+(The last generation time: 2023-07-13 09:03:50 CST)
 
 ### Packages
 
@@ -133,7 +133,7 @@
  app-misc/xmind                             | 22.11.3656                                |        | https://www.xmind.net                                                                   | Brainstorming and Mind Mapping Software
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-misc/yq-bin                            | 4.30.6                                    |        | https://github.com/mikefarah/yq                                                         | yq is a portable command-line YAML, JSON and XML processor
-                                            | 4.34.1                                    |        |                                                                                         |
+                                            | 4.34.2                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-mobilephone/scrcpy                     | 1.25                                      |        | https://blog.rom1v.com/2018/03/introducing-scrcpy/                                      | Display and control your Android device
                                             | 2.1                                       |        |                                                                                         |
@@ -347,7 +347,7 @@
  media-sound/yesplaymusic-bin               | 0.4.6                                     |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
                                             | 0.4.7                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/youtube-music-bin              | 1.18.0                                    |        | https://th-ch.github.io/youtube-music/                                                  | YouTube Music Desktop App bundled with custom plugins
+ media-sound/youtube-music-bin              | 1.20.0                                    |        | https://th-ch.github.io/youtube-music/                                                  | YouTube Music Desktop App bundled with custom plugins
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/amdgpu-pro-amf                 | 1.4.29.1538781                            |        | https://www.amd.com/en/support                                                          | AMD's closed source Advanced Media Framework (AMF) driver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
