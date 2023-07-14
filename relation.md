@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-07-14 11:36:20 CST)
+(The last generation time: 2023-07-14 17:21:20 CST)
 
 ### Packages
 
@@ -266,7 +266,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/lxgw-neo-xihei                 | 1.102.1                                   |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/nerd-fonts                     | 3.0.0                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
+ media-fonts/nerd-fonts                     | 3.0.2                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-gothic                  | 0.41.3                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -526,7 +526,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/lceda                      | 6.5.29                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                  | 2.1.17                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
+ sci-electronics/lceda-pro                  | 2.1.19                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-libs/libticalcs2                       | 9999                                      |        | http://lpg.ticalc.org/prj_tilp/                                                         | Library for communication with TI calculators
    sci-libs/libtifiles2                     | 9999                                      |  D, RD | http://lpg.ticalc.org/prj_tilp/                                                         | Library for TI calculator files
