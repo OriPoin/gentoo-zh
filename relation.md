@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-07-13 17:44:47 CST)
+(The last generation time: 2023-07-14 11:36:20 CST)
 
 ### Packages
 
@@ -256,7 +256,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  mail-client/thunderbird                    | 106.0-r5                                  |        | https://www.thunderbird.net                                                             | Thunderbird Mail Client
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/Plangothic                     | 0.8.5741                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic                          | 遍黑体项目（Plangothic Project）
+ media-fonts/Plangothic                     | 0.8.5744                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic                          | 遍黑体项目（Plangothic Project）
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/cwtex-q-fonts                  | 0.2                                       |        | https://code.google.com/p/cwtex-q-fonts/                                                | Those five TrueType fonts are transformed from cwTeX Traditional Chinese Type 1 fonts(Version 1.1).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -313,8 +313,8 @@
  media-sound/feeluown                       | 3.8.11                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
                                             | 3.8.12                                    |        |                                                                                         |
    dev-python/feeluown-bilibili             | 0.1.5                                     |  D     | https://github.com/feeluown/feeluown-bilibili                                           | bilibili support for feeluown
-   dev-python/fuo-kuwo                      | 0.1.5                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
-                                            | 0.1.6                                     |        |                                                                                         |
+   dev-python/fuo-kuwo                      | 0.1.6                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
+                                            | 0.2.0                                     |        |                                                                                         |
    dev-python/fuo-netease                   | 0.9.6                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
    dev-python/fuo-qqmusic                   | 0.4.1                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/fuo-ytmusic                   | 0.2.0-r1                                  |  D     | https://github.com/feeluown/feeluown-ytmusic                                            | youtube music support for feeluown
@@ -322,7 +322,7 @@
    dev-python/janus                         | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                        | 0.23.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/go-musicfox                    | 4.1.2                                     |        | https://github.com/go-musicfox/go-musicfox                                              | Command-line Netease Cloud Music written in Go
+ media-sound/go-musicfox                    | 4.1.3                                     |        | https://github.com/go-musicfox/go-musicfox                                              | Command-line Netease Cloud Music written in Go
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                         | 2.2.0                                     |        | http://www.linnya.org                                                                   | A free music player
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -451,7 +451,7 @@
  net-misc/remmina-plugin-rustdesk           | 1.0.0.0-r1                                |        | http://www.muflone.com/remmina-plugin-rustdesk/                                         | A protocol plugin for Remmina to launch a Rustdesk connection.
    net-misc/rustdesk                        | 1.2.0                                     |  D, RD | https://rustdesk.com/                                                                   | Open source virtual / remote desktop infrastructure for everyone
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/tssh                              | 0.1.5                                     |        | https://github.com/trzsz/trzsz-ssh                                                      | 内置支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持选择（ 搜索 ）服务器进行登录
+ net-misc/tssh                              | 0.1.6                                     |        | https://github.com/trzsz/trzsz-ssh                                                      | 内置支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持选择（ 搜索 ）服务器进行登录
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/you-get                           | 9999                                      |        | http://www.soimort.org/you-get                                                          | A video downloader for YouTube, Youku, niconico and a few other sites
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
