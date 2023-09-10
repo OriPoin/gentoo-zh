@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-09-01 09:13:42 CST)
+(The last generation time: 2023-09-10 19:17:28 CST)
 
 ### Packages
 
@@ -198,7 +198,7 @@
  dev-libs/v2ray-domain-list-community       | 4.39.2_p20210621183458-r1                 |        | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-libs/v2ray-rules-dat                   | 202307312208                              |        | https://github.com/Loyalsoldier/v2ray-rules-dat                                         | Enhanced edition of V2Ray rules dat files.
+ dev-libs/v2ray-rules-dat                   | 202309062208                              |        | https://github.com/Loyalsoldier/v2ray-rules-dat                                         | Enhanced edition of V2Ray rules dat files.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/conda                           | 23.1.0                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-package-handling        | 2.0.2                                     |  D, RD | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
@@ -225,6 +225,7 @@
  dev-util/jd-gui                            | 1.6.6                                     |        | http://jd.benow.ca/                                                                     | A standalone graphical utility that displays Java source codes of .class file
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/jetbrains-toolbox                 | 1.28.1.15219                              |        | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
+                                            | 2.0.3.17006                               |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/lldb-mi                           | 9999                                      |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -235,7 +236,7 @@
                                             | 1.36.4                                    |        |                                                                                         |
                                             | 1.37.0                                    |        |                                                                                         |
                                             | 1.38.2                                    |        |                                                                                         |
-                                            | 1.39.3                                    |        |                                                                                         |
+                                            | 1.39.4                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator             | 9999                                      |        | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -243,7 +244,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-vcs/gitoxide                           | 0.29.0                                    |        | https://github.com/Byron/gitoxide                                                       | A command-line application for interacting with git repositories
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-vcs/gptcommit                          | 0.5.11                                    |        | https://github.com/zurawiki/gptcommit                                                   | A git prepare-commit-msg hook for summarizing commits with GPT-3.
+ dev-vcs/gptcommit                          | 0.5.13                                    |        | https://github.com/zurawiki/gptcommit                                                   | A git prepare-commit-msg hook for summarizing commits with GPT-3.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-board/othello                        | 0.2.2                                     |        | http://othello-game.sourceforge.net                                                     | Othello is a classic strategy game, also known as Reversi
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -256,7 +257,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  mail-client/thunderbird                    | 106.0-r5                                  |        | https://www.thunderbird.net                                                             | Thunderbird Mail Client
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/Plangothic                     | 0.8.5744                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic                          | 遍黑体项目（Plangothic Project）
+ media-fonts/Plangothic                     | 1.8.5746                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/cwtex-q-fonts                  | 0.2                                       |        | https://code.google.com/p/cwtex-q-fonts/                                                | Those five TrueType fonts are transformed from cwTeX Traditional Chinese Type 1 fonts(Version 1.1).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -268,7 +269,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                     | 3.0.2                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                  | 0.41.6                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+ media-fonts/sarasa-gothic                  | 0.41.9                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -352,7 +353,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/avplayer                       | 9999                                      |        | http://avplayer.avplayer.org                                                            | avplayer is a p2p video downloader and player
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-video/bilibili                       | 1.10.1                                    |        | https://github.com/msojocs/bilibili-linux                                               | Based on the Bilibli offcial client to linux version, support roaming
+ media-video/bilibili                       | 1.11.4                                    |        | https://github.com/msojocs/bilibili-linux                                               | Based on the Bilibli offcial client to linux version, support roaming
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/mpv-handler                    | 0.3.4                                     |        | https://github.com/akiirui/mpv-handler                                                  | A protocol handler for mpv, written by Rust.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -378,8 +379,8 @@
                                             | 5.1.3                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/mosdns-cn-bin                      | 1.4.0                                     |        | https://github.com/IrineSistiana/mosdns-cn                                              | A DNS forwarder
-   dev-libs/v2ray-domain-list-community-bin | 20230730120627                            |  D, RD | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
-   dev-libs/v2ray-geoip-bin                 | 202307270042                              |  D, RD | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
+   dev-libs/v2ray-domain-list-community-bin | 20230905081311                            |  D, RD | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
+   dev-libs/v2ray-geoip-bin                 | 202309070036                              |  D, RD | https://github.com/v2fly/geoip                                                          | GeoIP for V2Ray.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/phddns                             | 2.0.6.32828                               |        | http://hsk.oray.com/                                                                    | Phddns
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -405,9 +406,10 @@
  net-im/telegram-purple                     | 1.4.7-r1                                  |        | https://github.com/majn/telegram-purple                                                 | Libpurple (Pidgin) plugin for using a Telegram account
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/tencent-qq                          | 3.2.0_p16449                              |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
+ net-im/tencent-qq                          | 3.2.0_p16605-r1                           |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
+   media-libs/openslide                     | 20230904                                  | RD     | http://openslide.org/                                                                   | C library with simple interface to read virtual slides
    x11-misc/flatpak-xdg-utils               | 1.0.5                                     | RD     | https://github.com/flatpak/flatpak-xdg-utils                                            | Utilities for containerized apps to launch programs outside the container
-   x11-misc/snapd-xdg-open                  | 9999                                      | RD     | https://github.com/snapcore/snapd-xdg-open                                              | Software for opening links from snaps in desktop
+   x11-misc/snapd-xdg-open                  | 20170401                                  | RD     | https://github.com/snapcore/snapd-xdg-open                                              | Software for opening links from snaps in desktop
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/weixin-uos                          | 2.1.5-r1                                  |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -419,7 +421,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/aliyunpan                         | 0.2.7                                     |        | https://github.com/tickstep/aliyunpan                                                   | aliyunpan cli client, support Webdav service, JavaScript plugin
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/apifox                            | 2.3.12                                    |        | https://www.apifox.cn/                                                                  | API 文档、API 调试、API Mock、API 自动化测试
+ net-misc/apifox                            | 2.3.14                                    |        | https://www.apifox.cn/                                                                  | API 文档、API 调试、API Mock、API 自动化测试
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/avsocks                           | 9999                                      |        | https://github.com/avplayer/avsocks                                                     | API 文档、API 调试、API Mock、API 自动化测试
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -475,8 +477,8 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/cgproxy                          | 0.20-r1                                   |        | https://github.com/springzfx/cgproxy                                                    | Transparent Proxy with cgroup v2
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin            | 0.20.31                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
-                                            | 0.20.32                                   |        |                                                                                         |
+ net-proxy/clash-for-windows-bin            | 0.20.33                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+                                            | 0.20.34                                   |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-verge-bin                  | 1.2.0                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
                                             | 1.2.1                                     |        |                                                                                         |
@@ -488,7 +490,7 @@
      acct-user/clash-meta                   | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
    net-proxy/clash-premium-bin              | 2023.06.30                                | RD     | https://github.com/Dreamacro/clash                                                      | Close-sourced pre-built Clash binary with TUN support
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/dae                              | 0.2.4                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
+ net-proxy/dae                              | 0.3.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/daed                             | 0.3.3_p1                                  |        | https://github.com/daeuniverse/daed                                                     | A Modern Dashboard For dae
@@ -508,7 +510,7 @@
  net-proxy/v2rayA                           | 2.0.5                                     |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
                                             | 9999                                      |        |                                                                                         |
    net-proxy/Xray                           | 1.7.5                                     | RD     | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
-                                            | 1.8.3                                     |        |                                                                                         |
+                                            | 1.8.4                                     |        |                                                                                         |
      app-alternatives/v2ray-geoip           | 0                                         |  D, RD |                                                                                         | symlink for v2ray-geoip
      app-alternatives/v2ray-geosite         | 0                                         |  D, RD |                                                                                         | symlink for v2ray-geosite
    net-proxy/v2ray                          | 4.45.2-r1                                 | RD     | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
@@ -525,9 +527,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/jlc-assistant-bin          | 5.0.69                                    |        | https://www.jlc.com/portal/appDownloadsWithConfig.html                                  | JLC Order Assistant (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda                      | 6.5.29                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
+ sci-electronics/lceda                      | 6.5.34                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                  | 2.1.20                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
+ sci-electronics/lceda-pro                  | 2.1.32                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/openfpgaloader             | 0.11.0                                    |        | https://trabucayre.github.io/openFPGALoader                                             | Universal utility for programming FPGAs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -555,7 +557,7 @@
        app-arch/zchunk                      | 1.3.1                                     | RD     | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-boot/ventoy-bin                        | 1.0.94                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
+ sys-boot/ventoy-bin                        | 1.0.95                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                | 7.0.5                                     |        | http://www.coda.cs.cmu.edu/                                                             | Coda is an advanced network file system, similar to NFS
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -583,7 +585,7 @@
                                             | 6.4.12                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                      | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources              | 6.4.3                                     | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+   sys-kernel/liquorix-sources              | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                             | 6.4.6                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                 | 6.1.46                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                             | 6.1.47                                    |        |                                                                                         |
