@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-11-02 23:06:44 CST)
+(The last generation time: 2023-11-06 14:19:10 CST)
 
 ### Packages
 
@@ -33,7 +33,7 @@
  app-editors/marktext-bin                   | 0.17.1                                    |        | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                         | 0.11.18                                   |        | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
-                                            | 1.5.8                                     |        |                                                                                         |
+                                            | 1.7.6                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/looking-glass                | 0_beta6                                   |        | https://looking-glass.io                                                                | A low latency KVMFR application for guests with VGA PCI Passthrough
    gui-libs/libdecor                        | 0.1.1                                     |  D, RD | https://gitlab.freedesktop.org/libdecor/libdecor                                        | A client-side decorations library for Wayland clients
@@ -42,23 +42,23 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/dvp                               | 1.2.1-r1                                  |        | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/fcitx-anthy                       | 5.0.14                                    |        | https://fcitx-im.org/                                                                   | Japanese Anthy input methods for Fcitx5
+ app-i18n/fcitx-anthy                       | 5.1.2                                     |        | https://fcitx-im.org/                                                                   | Japanese Anthy input methods for Fcitx5
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/fcitx-chewing                     | 5.1.0                                     |        | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
+ app-i18n/fcitx-chewing                     | 5.1.1                                     |        | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-meta                        | 5.0.12-r2                                 |        | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
-   app-i18n/fcitx-chinese-addons            | 5.1.1                                     |  D, RD | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
+   app-i18n/fcitx-chinese-addons            | 5.1.2                                     |  D, RD | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
                                             | 9999                                      |        |                                                                                         |
      app-i18n/fcitx-lua                     | 5.0.10                                    |  D, RD | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
                                             | 9999                                      |        |                                                                                         |
-     app-i18n/fcitx-qt                      | 5.1.1                                     |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
+     app-i18n/fcitx-qt                      | 5.1.3                                     |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
                                             | 9999                                      |        |                                                                                         |
-   app-i18n/fcitx-configtool                | 5.1.0                                     | RD     | https://fcitx-im.org/                                                                   | Configuration module for Fcitx
+   app-i18n/fcitx-configtool                | 5.1.2                                     | RD     | https://fcitx-im.org/                                                                   | Configuration module for Fcitx
                                             | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-gtk                       | 5.1.0                                     | RD     | https://github.com/fcitx/fcitx5-gtk                                                     | Gtk im module for fcitx5 and glib based dbus client library
                                             | 9999                                      |        |                                                                                         |
-   app-i18n/fcitx-hangul                    | 5.1.0                                     | RD     | https://fcitx-im.org/                                                                   | Korean Hangul input method for Fcitx
-   app-i18n/fcitx-rime                      | 5.1.2                                     | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
+   app-i18n/fcitx-hangul                    | 5.1.1                                     | RD     | https://fcitx-im.org/                                                                   | Korean Hangul input method for Fcitx
+   app-i18n/fcitx-rime                      | 5.1.3                                     | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
                                             | 9999                                      |        |                                                                                         |
      app-i18n/rime-prelude                  | 20220122-r1                               |  D, RD | https://github.com/rime/rime-prelude                                                    | Essential files for building up your Rime configuration
    app-i18n/fcitx-skk                       | 5.1.0                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
@@ -79,11 +79,11 @@
                                             | 2.28.5029.102                             |        |                                                                                         |
                                             | 2.28.5029.102-r1                          |        |                                                                                         |
    app-i18n/fcitx                           | 4.2.9.8                                   |  D, RD | https://fcitx-im.org/                                                                   | Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
-                                            | 5.1.1                                     |        |                                                                                         |
+                                            | 5.1.4                                     |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
      x11-libs/xcb-imdkit                    | 1.0.4                                     |  D, RD | https://github.com/fcitx/xcb-imdkit                                                     | Input method development support for xcb
                                             | 1.0.5                                     |        |                                                                                         |
-   app-i18n/libime                          | 1.1.2                                     |  D, RD | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
+   app-i18n/libime                          | 1.1.3                                     |  D, RD | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
                                             | 9999                                      |        |                                                                                         |
    dev-util/gyp                             | 20230914150222                            | BD     | https://gyp.gsrc.io/                                                                    | GYP (Generate Your Projects) meta-build system
                                             | 99999999999999                            |        |                                                                                         |
@@ -258,6 +258,8 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-misc/oh-my-git-bin                   | 0.6.5                                     |        | https://ohmygit.org/                                                                    | An interactive Git learning game!
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ games-roguelike/nethack                    | 3.6.7                                     |        | https://www.nethack.org/                                                                | The ultimate old-school single player dungeon exploration game
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-util/winegame-client-bin             | 0.5.10.5                                  |        | https://winegame.net/                                                                   | An open source gaming platform for GNU/Linux
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  kde-misc/plasma-applet-netspeed-widget     | 1.9                                       |        | https://www.kde-look.org/p/998895/                                                      | Plasma 5 widget that displays the currently used network bandwidth.
@@ -278,8 +280,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                     | 3.0.2                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                  | 0.42.0                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
-                                            | 0.42.3                                    |        |                                                                                         |
+ media-fonts/sarasa-gothic                  | 0.42.5                                    |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -327,16 +328,15 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/barva                          | 9999                                      |        | https://github.com/Kharacternyk/barva                                                   | a modular audio visualizer
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/feeluown                       | 3.8.12                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
-                                            | 3.8.14                                    |        |                                                                                         |
+ media-sound/feeluown                       | 3.8.15                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
    dev-python/feeluown-bilibili             | 0.3                                       |  D     | https://github.com/feeluown/feeluown-bilibili                                           | bilibili support for feeluown
    dev-python/fuo-kuwo                      | 0.1.6                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
                                             | 0.2.0                                     |        |                                                                                         |
-   dev-python/fuo-netease                   | 0.9.7                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
+   dev-python/fuo-netease                   | 0.9.8                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
    dev-python/fuo-qqmusic                   | 0.5.1                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/fuo-ytmusic                   | 0.3.1                                     |  D     | https://github.com/feeluown/feeluown-ytmusic                                            | youtube music support for feeluown
    dev-python/janus                         | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
-   dev-python/qasync                        | 0.24.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
+   dev-python/qasync                        | 0.26.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/go-musicfox                    | 4.3.0                                     |        | https://github.com/go-musicfox/go-musicfox                                              | Command-line Netease Cloud Music written in Go
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -357,7 +357,7 @@
  media-sound/yesplaymusic-bin               | 0.4.6                                     |        | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
                                             | 0.4.7                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/youtube-music-bin              | 1.20.0                                    |        | https://th-ch.github.io/youtube-music/                                                  | YouTube Music Desktop App bundled with custom plugins
+ media-sound/youtube-music-bin              | 2.2.0                                     |        | https://th-ch.github.io/youtube-music/                                                  | YouTube Music Desktop App bundled with custom plugins
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-video/amdgpu-pro-amf                 | 1.4.29.1538781                            |        | https://www.amd.com/en/support                                                          | AMD's closed source Advanced Media Framework (AMF) driver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -441,12 +441,11 @@
  net-misc/baidunetdisk                      | 4.17.7                                    |        | https://pan.baidu.com/                                                                  | Baidu Net Disk is a cloud storage client (Linux Version)
                                             | 4.3.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/baidupcs-go                       | 3.9.1                                     |        | https://github.com/qjfoidnh/BaiduPCS-Go                                                 | The terminal utility for Baidu Network Disk (Golang Version).
+ net-misc/baidupcs-go                       | 3.9.5                                     |        | https://github.com/qjfoidnh/BaiduPCS-Go                                                 | The terminal utility for Baidu Network Disk (Golang Version).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/bbdown-bin                        | 1.5.9                                     |        | https://github.com/nilaoda/BBDown                                                       | The terminal utility for Baidu Network Disk (Golang Version).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/biliup-app                        | 0.4.1-r1                                  |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
-   dev-util/tauri-cli                       | 1.3.1                                     | BD     | https://tauri.app/v1/api/cli                                                            | Command line interface for building Tauri apps
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/biliup-app-bin                    | 0.4.1                                     |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -491,13 +490,18 @@
  net-proxy/clash-for-windows-bin            | 0.20.38                                   |        | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
                                             | 0.20.39                                   |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge-bin                  | 1.3.8                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
+ net-proxy/clash-verge                      | 1.3.8                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
+   dev-lang/quickjs                         | 2021.03.27                                | BD     | https://bellard.org/quickjs/                                                            | Small embeddable Javascript engine
+   dev-util/tauri-cli                       | 1.3.1                                     | BD     | https://tauri.app/v1/api/cli                                                            | Command line interface for building Tauri apps
+                                            | 1.5.6                                     |        |                                                                                         |
    net-proxy/clash                          | 1.17.0                                    | RD     | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
                                             | 1.18.0                                    |        |                                                                                         |
    net-proxy/clash-meta                     | 1.16.0                                    | RD     | https://github.com/MetaCubeX/Clash.Meta                                                 | Another Clash Kernel.
      acct-group/clash-meta                  | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
      acct-user/clash-meta                   | 0                                         |  D, RD |                                                                                         | Another Clash Kernel.
    net-proxy/clash-premium-bin              | 2023.06.30                                | RD     | https://github.com/Dreamacro/clash                                                      | Close-sourced pre-built Clash binary with TUN support
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-proxy/clash-verge-bin                  | 1.3.8                                     |        | https://github.com/zzzgydi/clash-verge                                                  | A Clash GUI based on tauri
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/dae                              | 0.3.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
                                             | 9999                                      |        |                                                                                         |
@@ -527,9 +531,8 @@
                                             | 1.8.4                                     |        |                                                                                         |
      app-alternatives/v2ray-geoip           | 0                                         |  D, RD |                                                                                         | symlink for v2ray-geoip
      app-alternatives/v2ray-geosite         | 0                                         |  D, RD |                                                                                         | symlink for v2ray-geosite
-   net-proxy/v2ray                          | 5.10.0                                    | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
-                                            | 5.10.1                                    |        |                                                                                         |
-                                            | 5.7.0-r2                                  |        |                                                                                         |
+   net-proxy/v2ray                          | 5.10.1                                    | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
+                                            | 5.11.0                                    |        |                                                                                         |
                                             | 5.8.0                                     |        |                                                                                         |
    net-proxy/v2ray-bin                      | 4.45.0-r1                                 | RD     | https://www.v2fly.org                                                                   | A platform for building proxies to bypass network restrictions.
                                             | 5.7.0                                     |        |                                                                                         |
@@ -546,9 +549,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/jlc-assistant-bin          | 5.0.69                                    |        | https://www.jlc.com/portal/appDownloadsWithConfig.html                                  | JLC Order Assistant (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda                      | 6.5.36                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
+ sci-electronics/lceda                      | 6.5.37                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                  | 2.1.33                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
+ sci-electronics/lceda-pro                  | 2.1.35                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/openfpgaloader             | 0.11.0                                    |        | https://trabucayre.github.io/openFPGALoader                                             | Universal utility for programming FPGAs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -606,17 +609,20 @@
                                             | 1.6.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                        | 6.4.15                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
+                                            | 6.6.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                      | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources              | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                             | 6.4.6                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                 | 6.4.15                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                            | 6.6.0                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                     | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
    sys-kernel/xanmod-sources                | 6.4.15                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+                                            | 6.6.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.0.0                                     |        | https://github.com/lencx/ChatGPT                                                        | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave                           | 1.59.124                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave                           | 1.60.110                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                      | 1.13                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -671,6 +677,9 @@
  x11-wm/9wm                                 | 1.1                                       |        | http://unauthorised.org/dhog/9wm.html                                                   | A window manager emulation of the Plan 9 window manager 8-1/2.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-wm/chamferwm                           | 9999                                      |        | https://github.com/jaelpark/chamferwm                                                   | A tiling X11 window manager with Vulkan compositor.
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ x11-wm/hypr                                | 1.1.3                                     |        | https://github.com/hyprwm/Hypr                                                          | A dynamic Linux tiling window manager for Xorg
+                                            | 9999                                      |        |                                                                                         |
 ============================================|===========================================|========|=========================================================================================|====================
 ```
 + ` D` means the classic dependencies (e.g.: libraries and headers)
