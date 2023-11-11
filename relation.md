@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-11-06 14:19:10 CST)
+(The last generation time: 2023-11-11 23:27:20 CST)
 
 ### Packages
 
@@ -608,17 +608,15 @@
  sys-power/tlpui                            | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                             | 1.6.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                        | 6.4.15                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
-                                            | 6.6.0                                     |        |                                                                                         |
+ virtual/dist-kernel                        | 6.6.1                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                      | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources              | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                             | 6.4.6                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel                 | 6.4.15                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                            | 6.6.0                                     |        |                                                                                         |
+   sys-kernel/xanmod-kernel                 | 6.6.1                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                     | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
    sys-kernel/xanmod-sources                | 6.4.15                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                            | 6.6.0                                     |        |                                                                                         |
+                                            | 6.6.1                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.0.0                                     |        | https://github.com/lencx/ChatGPT                                                        | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
