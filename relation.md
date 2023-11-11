@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2023-11-11 23:28:02 CST)
+(The last generation time: 2023-11-12 00:43:34 CST)
 
 ### Packages
 
@@ -606,8 +606,7 @@
                                             | 6.4.6                                     |        |                                                                                         |
    sys-kernel/xanmod-kernel                 | 6.6.1                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                     | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources                | 6.4.15                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                            | 6.6.1                                     |        |                                                                                         |
+   sys-kernel/xanmod-sources                | 6.6.1                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
