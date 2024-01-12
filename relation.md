@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-01-12 14:28:11 CST)
+(The last generation time: 2024-01-12 14:51:38 CST)
 
 ### Packages
 
@@ -211,7 +211,7 @@
                                             | 1.4.0                                     |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/conda-package-handling          | 2.0.2                                     |        | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
+ dev-python/conda-package-handling          | 2.2.0                                     |        | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/conda-package-streaming         | 0.7.0                                     |        | https://github.com/conda/conda-package-streaming                                        | An efficient library to read from new and old conda packages
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
