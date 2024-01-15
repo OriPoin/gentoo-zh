@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-01-12 14:51:38 CST)
+(The last generation time: 2024-01-15 11:52:09 CST)
 
 ### Packages
 
@@ -213,15 +213,13 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/conda-package-handling          | 2.2.0                                     |        | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/conda-package-streaming         | 0.7.0                                     |        | https://github.com/conda/conda-package-streaming                                        | An efficient library to read from new and old conda packages
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/daff                            | 1.3.46                                    |        | https://github.com/paulfitz/daff                                                        | The daff can produce and apply tabular diffs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/nvchecker                       | 2.13                                      |        | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
                                             | 2.13.1                                    |        |                                                                                         |
    dev-python/structlog                     | 24.1.0                                    | RD     | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/pycosat                         | 0.6.6                                     |        | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
+ dev-python/pycosat                         | 0.6.6                                     |        | https://github.com/conda/pycosat                                                        | Python bindings to picosat (a SAT solver)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/pytube                          | 15.0.0                                    |        | https://github.com/pytube/pytube                                                        | Python tools for downloading YouTube Videos
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
