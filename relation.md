@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-01-15 11:52:09 CST)
+(The last generation time: 2024-01-17 11:57:53 CST)
 
 ### Packages
 
@@ -56,15 +56,14 @@
                                             | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-m17n                      | 5.1.0                                     | RD     | https://github.com/fcitx/fcitx5-m17n                                                    | m17n-provided input methods for Fcitx5
                                             | 9999                                      |        |                                                                                         |
-   app-i18n/fcitx-rime                      | 5.1.3                                     | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
-                                            | 9999                                      |        |                                                                                         |
+   app-i18n/fcitx-rime                      | 9999                                      | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
      app-i18n/rime-prelude                  | 20220122-r1                               |  D, RD | https://github.com/rime/rime-prelude                                                    | Essential files for building up your Rime configuration
-   app-i18n/fcitx-skk                       | 5.1.0                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
+   app-i18n/fcitx-skk                       | 5.1.1                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/ibus-rime                         | 9999                                      |        | http://code.google.com/p/rimeime/                                                       | Rime Input Method Engine for IBus Framework
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/libime-jyutping                   | 1.0.8                                     |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping (粵拼) input method
+ app-i18n/libime-jyutping                   | 1.0.9                                     |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping input method
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/lunar                             | 2.2-r5                                    |        | https://packages.debian.org/unstable/utils/lunar                                        | Chinese Lunar Calendar conversion utility
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -128,6 +127,7 @@
                                             | 4.40.5                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/anytype-bin                     | 0.35.4                                    |        | https://anytype.io                                                                      | A notebook based on p2p network
+                                            | 0.37.3                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/bytedance-feishu                | 4.11.6.2                                  |        | https://www.feishu.cn/                                                                  | feishu - ByteDance's enterprise collaboration platform
                                             | 5.14.14                                   |        |                                                                                         |
@@ -178,6 +178,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/mongodb                             | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                             | 6.2.0-r4                                  |        |                                                                                         |
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ dev-debug/lldb-mi                          | 0.0.1                                     |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
+                                            | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-java/oraclejdk-bin                     | 8.391                                     |        | https://www.oracle.com/java                                                             | Oracle's Java SE Development Kit
                                             | 21.0.1                                    |        |                                                                                         |
@@ -238,9 +241,6 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/jetbrains-toolbox                 | 1.28.1.15219                              |        | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
                                             | 2.0.3.17006                               |        |                                                                                         |
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/lldb-mi                           | 0.0.1                                     |        | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
-                                            | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/marksman-bin                      | 2022.12.28                                |        | https://github.com/artempyanykh/marksman                                                | A language server for Markdown
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -337,10 +337,12 @@
  media-sound/barva                          | 9999                                      |        | https://github.com/Kharacternyk/barva                                                   | a modular audio visualizer
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/feeluown                       | 3.8.15                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
+                                            | 4.0_alpha0                                |        |                                                                                         |
    dev-python/feeluown-bilibili             | 0.3                                       |  D     | https://github.com/feeluown/feeluown-bilibili                                           | bilibili support for feeluown
    dev-python/fuo-kuwo                      | 0.2.2                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
-   dev-python/fuo-netease                   | 0.9.8                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
+   dev-python/fuo-netease                   | 1.0                                       |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
    dev-python/fuo-qqmusic                   | 0.5.1                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
+                                            | 1.0.1                                     |        |                                                                                         |
    dev-python/fuo-ytmusic                   | 0.3.2                                     |  D     | https://github.com/feeluown/feeluown-ytmusic                                            | youtube music support for feeluown
    dev-python/janus                         | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                        | 0.26.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
@@ -411,8 +413,7 @@
      app-emulation/deepin-wine-plugin       | 5.1.13-r1                                 |  D, RD | https://www.deepin.org                                                                  | Deepin Wine plugin
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/deepin-wine-wechat                  | 3.9.0.28-r3                               |        | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine For Gentoo
-   app-emulation/deepin-wine6-stable        | 6.0.0.19-r1                               |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
-                                            | 6.0.0.52                                  |        |                                                                                         |
+   app-emulation/deepin-wine6-stable        | 6.0.0.52                                  |  D, RD | https://www.deepin.org                                                                  | Deepin wine6 stable
      app-emulation/deepin-udis86            | 1.72-r4                                   | RD     | https://www.deepin.org                                                                  | Disassembler library for x86 (32-bit shared library)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/deepin-wine-wecom                   | 4.1.10.6007                               |        | https://aur.archlinux.org/packages/com.qq.weixin.work.deepin-x11                        | Tencent Weixin Work on Deepin Wine(com.qq.weixin.work.deepin) For Gentoo
@@ -507,6 +508,7 @@
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/daed                             | 0.3.3_p1                                  |        | https://github.com/daeuniverse/daed                                                     | A Modern Dashboard For dae
+                                            | 0.4.0_rc1                                 |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/hysteria                         | 2.2.2                                     |        | https://github.com/apernet/hysteria                                                     | A powerful, lightning fast and censorship resistant proxy.
@@ -536,6 +538,8 @@
                                             | 5.12.1                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                        | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-proxy/yass                             | 1.5.18                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                        | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
