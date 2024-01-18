@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-01-17 21:14:30 CST)
+(The last generation time: 2024-01-18 11:30:43 CST)
 
 ### Packages
 
@@ -74,7 +74,7 @@
                                             | 2.28.5029.102-r1                          |        |                                                                                         |
    app-i18n/fcitx                           | 9999                                      |  D, RD | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
    app-i18n/libime                          | 9999                                      |  D, RD | https://fcitx-im.org/                                                                   | Fcitx5 Next generation of fcitx
-   dev-util/gyp                             | 20230914150222                            | BD     | https://gyp.gsrc.io/                                                                    | GYP (Generate Your Projects) meta-build system
+   dev-build/gyp                            | 20230914150222                            | BD     | https://gyp.gsrc.io/                                                                    | GYP (Generate Your Projects) meta-build system
                                             | 99999999999999                            |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/rime-bopomofo                     | 20210131                                  |        | https://github.com/rime/rime-bopomofo                                                   | Bopomofo input for rime
@@ -541,7 +541,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                        | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/yass                             | 1.5.18                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
+ net-proxy/yass                             | 1.5.19                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                        | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
