@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-01-29 15:18:29 CST)
+(The last generation time: 2024-02-03 19:23:38 CST)
 
 ### Packages
 
@@ -127,7 +127,7 @@
                                             | 4.40.5                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/anytype-bin                     | 0.35.4                                    |        | https://anytype.io                                                                      | A notebook based on p2p network
-                                            | 0.37.3                                    |        |                                                                                         |
+                                            | 0.38.0                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/bytedance-feishu                | 4.11.6.2                                  |        | https://www.feishu.cn/                                                                  | feishu - ByteDance's enterprise collaboration platform
                                             | 5.14.14                                   |        |                                                                                         |
@@ -139,10 +139,7 @@
                                             | 1064                                      |        |                                                                                         |
                                             | 1068                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-office/wps-office                      | 11.1.0.11698                              |        | http://www.wps.cn/product/wpslinux/                                                     | WPS Office is an office productivity suite, Here is the Chinese version
-                                            | 11.1.0.11704                              |        |                                                                                         |
-                                            | 11.1.0.11708                              |        |                                                                                         |
-                                            | 11.1.0.11711-r1                           |        |                                                                                         |
+ app-office/wps-office                      | 11.1.0.11711-r2                           |        | https://www.wps.cn/product/wpslinux/                                                    | WPS Office is an office productivity suite, Here is the Chinese version
    virtual/loong-ow-compat                  | 0                                         | RD     |                                                                                         | Virtual for LoongArch old-world compatibility
      app-emulation/liblol                   | 0.0.4-r1                                  | RD     | https://github.com/shankerwangmiao/liblol                                               | LoongArch old-world ABI compatibility layer from AOSC OS
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -281,7 +278,7 @@
                                             | 2.0                                       |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/Plangothic                     | 1.8.5752                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
+ media-fonts/Plangothic                     | 1.8.5757                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/cwtex-q-fonts                  | 0.2                                       |        | https://code.google.com/p/cwtex-q-fonts/                                                | Those five TrueType fonts are transformed from cwTeX Traditional Chinese Type 1 fonts(Version 1.1).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -295,7 +292,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                     | 3.1.1                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                  | 1.0.4                                     |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+ media-fonts/sarasa-gothic                  | 1.0.5                                     |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -339,6 +336,7 @@
  media-sound/barva                          | 9999                                      |        | https://github.com/Kharacternyk/barva                                                   | a modular audio visualizer
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/feeluown                       | 3.8.15                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
+                                            | 4.0.1                                     |        |                                                                                         |
                                             | 4.0_alpha0                                |        |                                                                                         |
    dev-python/feeluown-bilibili             | 0.3                                       |  D     | https://github.com/feeluown/feeluown-bilibili                                           | bilibili support for feeluown
    dev-python/fuo-kuwo                      | 0.2.2                                     |  D     | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
@@ -346,6 +344,7 @@
    dev-python/fuo-qqmusic                   | 0.5.1                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
                                             | 1.0.1                                     |        |                                                                                         |
    dev-python/fuo-ytmusic                   | 0.3.3                                     |  D     | https://github.com/feeluown/feeluown-ytmusic                                            | youtube music support for feeluown
+                                            | 0.3.4                                     |        |                                                                                         |
    dev-python/janus                         | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                        | 0.26.0                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
                                             | 0.27.1                                    |        |                                                                                         |
@@ -427,8 +426,7 @@
                                             | 0.1.29                                    |        |                                                                                         |
      dev-libs/libdatrie                     | 0.2.13                                    |  D, RD | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/tencent-qq                          | 3.2.3_p20201                              |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
-                                            | 3.2.5_p20670                              |        |                                                                                         |
+ net-im/tencent-qq                          | 3.2.5_p21217                              |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
    media-libs/openslide                     | 20230904                                  | RD     | http://openslide.org/                                                                   | C library with simple interface to read virtual slides
    x11-misc/flatpak-xdg-utils               | 1.0.5                                     | RD     | https://github.com/flatpak/flatpak-xdg-utils                                            | Utilities for containerized apps to launch programs outside the container
    x11-misc/snapd-xdg-open                  | 20170401                                  | RD     | https://github.com/snapcore/snapd-xdg-open                                              | Software for opening links from snaps in desktop
@@ -540,8 +538,8 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                        | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/yass                             | 1.5.22                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
-                                            | 1.6.1                                     |        |                                                                                         |
+ net-proxy/yass                             | 1.5.23                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
+                                            | 1.6.2                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                        | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -617,7 +615,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave                           | 1.62.153                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave                           | 1.62.156                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                      | 1.15                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -649,7 +647,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-plugins/vicious                        | 9999                                      |        | http://awesome.naquadah.org/wiki/Vicious                                                | Modular widget library for x11-wm/awesome
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-terms/wezterm-bin                      | 20230712                                  |        | https://wezfurlong.org/wezterm                                                          | A terminal emulator and multiplexer implemented in Rust
+ x11-terms/wezterm-bin                      | 20240128                                  |        | https://wezfurlong.org/wezterm                                                          | A terminal emulator and multiplexer implemented in Rust
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/fcitx-breeze                    | 2.0.0-r2                                  |        | https://github.com/scratch-er/fcitx5-breeze                                             | Fcitx5 theme to match KDE's Breeze style.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
