@@ -1,12 +1,14 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-02-04 23:20:03 CST)
+(The last generation time: 2024-02-09 20:42:11 CST)
 
 ### Packages
 
 ```
  Package name                               | Version                                   | Role   | Homepage                                                                                | Description
 ============================================|===========================================|========|=========================================================================================|====================
+ app-admin/rbw                              | 1.9.0                                     |        | https://github.com/doy/rbw                                                              | Unofficial Bitwarden CLI
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-admin/supersm                          | 0.5.1                                     |        | https://github.com/peeweep/supersm                                                      | Super Symlink Manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-admin/zenmonitor3                      | 2.0.0                                     |        | https://git.exozy.me/a/zenmonitor3                                                      | Zen monitor is monitoring software for AMD Zen-based CPUs
@@ -42,6 +44,9 @@
  app-emulation/winetricks-zh                | 9999                                      |        | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/dvp                               | 1.2.1-r1                                  |        | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-i18n/fcitx-cskk                        | 1.2.0                                     |        | https://github.com/fcitx/fcitx5-cskk                                                    | SKK input method plugin for fcitx5 that uses LibCSKK
+   app-i18n/cskk                            | 3.1.0                                     |  D, RD | https://github.com/naokiri/cskk                                                         | C ABIから使う事を目的とした SKK(Simple Kana Kanji henkan)方式のかな漢字変換ライブラリ
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-meta                        | 5.0.12-r2                                 |        | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
    app-i18n/fcitx-anthy                     | 5.1.2                                     | RD     | https://fcitx-im.org/                                                                   | Japanese Anthy input methods for Fcitx5
@@ -171,7 +176,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/tgbot-cpp                          | 1.7.2                                     |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-db/dbeaver-bin                         | 23.3.3                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
+ dev-db/dbeaver-bin                         | 23.3.4                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/mongodb                             | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                             | 6.2.0-r4                                  |        |                                                                                         |
@@ -228,9 +233,9 @@
  dev-util/arch-install-scripts              | 28-r1                                     |        | https://projects.archlinux.org/arch-install-scripts.git/                                | Arch Linux install tools (pacstrap, genfstab, arch-chroot)
    dev-util/pacstrap                        | 28                                        | RD     | https://github.com/archlinux/arch-install-scripts                                       | Pacstrap - install packages to the specified new root directorye
      sys-apps/pacman                        | 6.0.2                                     |  D     | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
-       app-crypt/archlinux-keyring          | 20231017                                  |  D, RD | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
-                                            | 20231113                                  |        |                                                                                         |
+       app-crypt/archlinux-keyring          | 20231113                                  |  D, RD | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
                                             | 20231222                                  |        |                                                                                         |
+                                            | 20240208                                  |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/bom-utils                         | 1.0                                       |        | https://github.com/jlblancoc/utf-bom-utils                                              | Small programs to add or remove the BOM mark in UTF8 files
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -286,7 +291,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                  | 2.0                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei                 | 1.109                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei                 | 1.110                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/lxgw-neo-zhisong               | 0.113                                     |        | https://github.com/lxgw/LxgwNeoZhiSong                                                  | An open-source Chinese font derived from IPAmj Mincho
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -296,7 +301,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/smiley-sans                    | 1.1.1                                     |        | https://github.com/atelier-anchor/smiley-sans                                           | An open-source font for Chinese.
+ media-fonts/smiley-sans                    | 2.0.0                                     |        | https://github.com/atelier-anchor/smiley-sans                                           | An open-source font for Chinese.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/taipei-sans-tc                 | 1.0                                       |        | https://sites.google.com/view/jtfoundry/                                                | JT Foundry - Taipei Sans TC Beta font
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -405,7 +410,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/phddns                             | 2.0.6.32828                               |        | http://hsk.oray.com/                                                                    | Phddns
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-dns/q                                  | 0.19.1                                    |        | https://github.com/natesales/q                                                          | A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
+ net-dns/q                                  | 0.19.2                                    |        | https://github.com/natesales/q                                                          | A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/deepin-wine-qq                      | 9.5.2.27897                               |        | https://aur.archlinux.org/packages/deepin-wine-qq                                       | Tencent QQ on Deepin Wine(com.qq.im.deepin) For Gentoo
    app-emulation/deepin-wine5               | 5.0.16-r1                                 |  D, RD | https://www.deepin.org                                                                  | Deepin wine5
@@ -498,7 +503,7 @@
    dev-util/tauri-cli                       | 1.5.9                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
                                             | 2.0.0_alpha17                             |        |                                                                                         |
    net-proxy/clash-rs                       | 0.1.11                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
-   net-proxy/mihomo                         | 1.18.0                                    | RD     | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
+   net-proxy/mihomo                         | 1.18.1                                    | RD     | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
      acct-group/mihomo                      | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
      acct-user/mihomo                       | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
    sys-apps/pnpm                            | 8.6.2                                     | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
@@ -537,8 +542,8 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                        | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/yass                             | 1.5.23                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
-                                            | 1.6.2                                     |        |                                                                                         |
+ net-proxy/yass                             | 1.5.24                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
+                                            | 1.6.3                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                        | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -575,7 +580,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/wait-online                       | 9999                                      |        | https://github.com/lilydjwg/wait-online                                                 | Wait until we're connected to the Internet
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-boot/ventoy-bin                        | 1.0.96                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
+ sys-boot/ventoy-bin                        | 1.0.97                                    |        | http://www.ventoy.net                                                                   | A new multiboot USB solution
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/coda                                | 7.0.5                                     |        | http://www.coda.cs.cmu.edu                                                              | Coda is an advanced network file system, similar to NFS
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -600,21 +605,21 @@
  sys-power/tlpui                            | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                             | 1.6.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                        | 6.7.2                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
-                                            | 6.7.3                                     |        |                                                                                         |
+ virtual/dist-kernel                        | 6.7.3                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
+                                            | 6.7.4                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                      | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources              | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                             | 6.6.8                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel                 | 6.7.2                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                            | 6.7.3                                     |        |                                                                                         |
+   sys-kernel/xanmod-kernel                 | 6.7.3                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                            | 6.7.4                                     |        |                                                                                         |
    sys-kernel/xanmod-rt                     | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources                | 6.7.2                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
-                                            | 6.7.3                                     |        |                                                                                         |
+   sys-kernel/xanmod-sources                | 6.7.3                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+                                            | 6.7.4                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave                           | 1.62.156                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave                           | 1.62.162                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                      | 1.15                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
