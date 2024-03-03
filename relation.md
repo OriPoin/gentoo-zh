@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-02-27 11:52:12 CST)
+(The last generation time: 2024-03-03 14:53:41 CST)
 
 ### Packages
 
@@ -63,12 +63,12 @@
                                             | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-rime                      | 9999                                      | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
      app-i18n/rime-prelude                  | 20220122-r1                               |  D, RD | https://github.com/rime/rime-prelude                                                    | Essential files for building up your Rime configuration
-   app-i18n/fcitx-skk                       | 5.1.1                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
+   app-i18n/fcitx-skk                       | 5.1.2                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/ibus-rime                         | 9999                                      |        | http://code.google.com/p/rimeime/                                                       | Rime Input Method Engine for IBus Framework
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/libime-jyutping                   | 1.0.9                                     |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping input method
+ app-i18n/libime-jyutping                   | 1.0.10                                    |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping input method
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/lunar                             | 2.2-r5                                    |        | https://packages.debian.org/unstable/utils/lunar                                        | Chinese Lunar Calendar conversion utility
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -98,7 +98,6 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/rime-wubi                         | 20200908                                  |        | https://github.com/rime/rime-wubi                                                       | wubi input for rime
    app-i18n/rime-data                       | 20220409                                  |  D, RD | https://rime.im/                                                                        | Data resources for Rime Input Method Engine
-     app-i18n/librime                       | 1.9.0                                     |  D, RD | https://rime.im/                                                                        | RIME (Rime Input Method Engine) core library
    app-i18n/rime-pinyin-simp                | 20230104                                  |  D, RD | https://github.com/rime/rime-pinyin-simp                                                | Simple pinyin input for rime
      app-i18n/rime-stroke                   | 20230204                                  |  D, RD | https://github.com/rime/rime-stroke                                                     | Stroke input for rime
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -142,7 +141,7 @@
                                             | 1064                                      |        |                                                                                         |
                                             | 1068                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-office/wps-office                      | 11.1.0.11711-r2                           |        | https://www.wps.cn/product/wpslinux/                                                    | WPS Office is an office productivity suite, Here is the Chinese version
+ app-office/wps-office                      | 11.1.0.11719                              |        | https://www.wps.cn/product/wpslinux/                                                    | WPS Office is an office productivity suite, Here is the Chinese version
    virtual/loong-ow-compat                  | 0                                         | RD     |                                                                                         | Virtual for LoongArch old-world compatibility
      app-emulation/liblol                   | 0.0.4-r1                                  | RD     | https://github.com/shankerwangmiao/liblol                                               | LoongArch old-world ABI compatibility layer from AOSC OS
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -289,7 +288,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                  | 2.0                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei                 | 1.110                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei                 | 1.120                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/lxgw-neo-zhisong               | 0.113                                     |        | https://github.com/lxgw/LxgwNeoZhiSong                                                  | An open-source Chinese font derived from IPAmj Mincho
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -502,7 +501,7 @@
    dev-lang/quickjs                         | 2021.03.27                                | BD     | https://bellard.org/quickjs/                                                            | Small embeddable Javascript engine
    dev-util/tauri-cli                       | 1.5.9                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
                                             | 2.0.0_alpha17                             |        |                                                                                         |
-   net-proxy/clash-rs                       | 0.1.11                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
+   net-proxy/clash-rs                       | 0.1.14                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
    net-proxy/mihomo                         | 1.18.1                                    |  D, RD | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
      acct-group/mihomo                      | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
      acct-user/mihomo                       | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
@@ -530,8 +529,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                       | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/v2rayA                           | 2.2.4.3                                   |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
-                                            | 2.2.4.6                                   |        |                                                                                         |
+ net-proxy/v2rayA                           | 2.2.5.1                                   |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
                                             | 9999                                      |        |                                                                                         |
    net-proxy/Xray                           | 1.8.7                                     | RD     | https://xtls.github.io/                                                                 | Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
                                             | 1.8.8-r1                                  |        |                                                                                         |
@@ -622,9 +620,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave                           | 1.63.162                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave                           | 1.63.165                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-servers/darkhttpd                      | 1.15                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
+ www-servers/darkhttpd                      | 1.16                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/woof                           | 9999                                      |        | http://www.home.unix-ag.org/simon/woof.html                                             | an ad-hoc single file webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
