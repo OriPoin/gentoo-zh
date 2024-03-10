@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-03-04 09:05:53 CST)
+(The last generation time: 2024-03-10 15:36:23 CST)
 
 ### Packages
 
@@ -29,12 +29,12 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx-pinyin-zhwiki              | 20230728                                  |        | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/appflowy-bin                   | 0.3.9.1                                   |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
+ app-editors/appflowy-bin                   | 0.5.0                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/marktext-bin                   | 0.17.1                                    |        | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                         | 0.11.18                                   |        | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
-                                            | 1.7.6                                     |        |                                                                                         |
+                                            | 1.8.10                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/la-ow-syscall                | 0.1.0                                     |        | https://github.com/AOSC-Dev/la_ow_syscall                                               | Linux kernel module for compatibility with LoongArch's old-world ABI
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -46,7 +46,7 @@
  app-i18n/dvp                               | 1.2.1-r1                                  |        | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-cskk                        | 1.2.0                                     |        | https://github.com/fcitx/fcitx5-cskk                                                    | SKK input method plugin for fcitx5 that uses LibCSKK
-   app-i18n/cskk                            | 3.1.0                                     |  D, RD | https://github.com/naokiri/cskk                                                         | C ABIから使う事を目的とした SKK(Simple Kana Kanji henkan)方式のかな漢字変換ライブラリ
+   app-i18n/cskk                            | 3.1.1                                     |  D, RD | https://github.com/naokiri/cskk                                                         | C ABIから使う事を目的とした SKK(Simple Kana Kanji henkan)方式のかな漢字変換ライブラリ
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx-meta                        | 5.0.12-r2                                 |        | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
    app-i18n/fcitx-anthy                     | 5.1.2                                     | RD     | https://fcitx-im.org/                                                                   | Japanese Anthy input methods for Fcitx5
@@ -94,10 +94,10 @@
  app-i18n/rime-flypy                        | 10.9.4                                    |        | https://github.com/cubercsl/rime-flypy                                                  | flypy-full input for rime
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/rime-octagram-data                | 20190619                                  |        | https://github.com/lotem/rime-octagram-data                                             | Language model of the 「八股文」語法
-   app-i18n/librime-octagram                | 20230125-r2                               |  D, RD | https://github.com/lotem/librime-octagram                                               | 「八股文」語法 plugin for RIME
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/rime-wubi                         | 20200908                                  |        | https://github.com/rime/rime-wubi                                                       | wubi input for rime
    app-i18n/rime-data                       | 20220409                                  |  D, RD | https://rime.im/                                                                        | Data resources for Rime Input Method Engine
+     app-i18n/librime                       | 1.10.0                                    |  D, RD | https://rime.im/                                                                        | RIME (Rime Input Method Engine) core library
    app-i18n/rime-pinyin-simp                | 20230104                                  |  D, RD | https://github.com/rime/rime-pinyin-simp                                                | Simple pinyin input for rime
      app-i18n/rime-stroke                   | 20230204                                  |  D, RD | https://github.com/rime/rime-stroke                                                     | Stroke input for rime
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -169,9 +169,9 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/nameof                             | 0.10.4                                    |        | https://github.com/Neargye/nameof                                                       | Nameof operator for modern C++
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-cpp/tgbot-cpp                          | 1.7.2                                     |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
+ dev-cpp/tgbot-cpp                          | 1.7.3                                     |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-db/dbeaver-bin                         | 23.3.5                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
+ dev-db/dbeaver-bin                         | 24.0.0                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/mongodb                             | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                             | 6.2.0-r4                                  |        |                                                                                         |
@@ -227,7 +227,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/arch-install-scripts              | 28-r1                                     |        | https://projects.archlinux.org/arch-install-scripts.git/                                | Arch Linux install tools (pacstrap, genfstab, arch-chroot)
    dev-util/pacstrap                        | 28                                        | RD     | https://github.com/archlinux/arch-install-scripts                                       | Pacstrap - install packages to the specified new root directorye
-     sys-apps/pacman                        | 6.0.2                                     |  D     | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
+     sys-apps/pacman                        | 6.1.0                                     |  D     | https://archlinux.org/pacman/                                                           | Archlinux's binary package manager
        app-crypt/archlinux-keyring          | 20231113                                  |  D, RD | https://gitlab.archlinux.org/archlinux/archlinux-keyring                                | GnuPG keyring of Archlinux developer keys
                                             | 20231222                                  |        |                                                                                         |
                                             | 20240208-r1                               |        |                                                                                         |
@@ -335,6 +335,8 @@
                                             | 0.5.14                                    |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ media-plugins/waylyrics                    | 0.2.12                                    |        | https://waylyrics.github.io/waylyrics/waylyrics                                         | Simple On Screen lyrics Display for linux/unix
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/barva                          | 9999                                      |        | https://github.com/Kharacternyk/barva                                                   | a modular audio visualizer
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/feeluown                       | 3.8.15                                    |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
@@ -361,7 +363,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/netease-cloud-music            | 1.2.1                                     |        | https://music.163.com                                                                   | Netease Cloud Music, converted from .deb package
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/netease-cloud-music-gtk        | 2.3.0                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK for Linux
+ media-sound/netease-cloud-music-gtk        | 2.3.1                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK for Linux
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/qqmusic                        | 1.1.5                                     |        | https://y.qq.com/                                                                       | Tencent QQ Music, converted from .deb package
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -440,6 +442,8 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-libs/jzmq                              | 9999                                      |        | http://www.zeromq.org/bindings:java                                                     | jzmq
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ net-misc/alist                             | 3.32.0                                    |        | https://alist.nn.ci                                                                     | A file list/WebDAV program that supports multiple storages
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/aliyundrive-webdav                | 2.3.3                                     |        | https://github.com/messense/aliyundrive-webdav.git                                      | WebDAV server for AliyunDrive
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/aliyunpan                         | 0.2.8                                     |        | https://github.com/tickstep/aliyunpan                                                   | aliyunpan cli client, support Webdav service, JavaScript plugin
@@ -497,15 +501,15 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/cgproxy                          | 0.20-r1                                   |        | https://github.com/springzfx/cgproxy                                                    | Transparent Proxy with cgroup v2
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-nyanpasu                   | 1.4.2                                     |        | https://github.com/keiko233/clash-nyanpasu/                                             | Clash GUI based on tauri
-   dev-lang/quickjs                         | 2021.03.27                                | BD     | https://bellard.org/quickjs/                                                            | Small embeddable Javascript engine
+ net-proxy/clash-nyanpasu                   | 1.5.0                                     |        | https://github.com/LibNyanpasu/clash-nyanpasu                                           | Clash GUI based on tauri
+   dev-lang/quickjs                         | 2024.01.13                                | BD     | https://bellard.org/quickjs/                                                            | Small embeddable Javascript engine
    dev-util/tauri-cli                       | 1.5.9                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
                                             | 2.0.0_alpha17                             |        |                                                                                         |
-   net-proxy/clash-rs                       | 0.1.14                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
+   net-proxy/clash-rs                       | 0.1.15                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
    net-proxy/mihomo                         | 1.18.1                                    |  D, RD | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
      acct-group/mihomo                      | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
      acct-user/mihomo                       | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
-   sys-apps/pnpm                            | 8.6.2                                     | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
+   sys-apps/pnpm                            | 8.15.4                                    | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-verge-bin                  | 1.5.1                                     |        | https://github.com/clash-verge-rev/clash-verge-rev                                      | (Continuation) of Clash Meta GUI based on Tauri.
                                             | 1.5.4                                     |        |                                                                                         |
@@ -535,16 +539,15 @@
                                             | 1.8.8-r1                                  |        |                                                                                         |
      app-alternatives/v2ray-geoip           | 0-r1                                      |  D, RD |                                                                                         | symlink for v2ray-geoip
      app-alternatives/v2ray-geosite         | 0-r1                                      |  D, RD |                                                                                         | symlink for v2ray-geosite
-   net-proxy/v2ray                          | 5.11.0                                    | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
-                                            | 5.12.1                                    |        |                                                                                         |
-                                            | 5.13.0                                    |        |                                                                                         |
+   net-proxy/v2ray                          | 5.13.0                                    | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
+                                            | 5.14.1                                    |        |                                                                                         |
    net-proxy/v2ray-bin                      | 4.45.0-r1                                 | RD     | https://www.v2fly.org                                                                   | A platform for building proxies to bypass network restrictions.
                                             | 5.12.1                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                        | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yass                             | 1.6.5                                     |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
-                                            | 1.7.1                                     |        |                                                                                         |
+                                            | 1.7.3                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                        | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -599,7 +602,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-fs/systemd-zpool-scrub                 | 1.1                                       |        | https://github.com/lnicola/systemd-zpool-scrub                                          | Systemd service for automatic ZFS zpool scrubbing
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sys-kernel/mkinitcpio                      | 34-r1                                     |        | https://github.com/archlinux/mkinitcpio                                                 | Modular initramfs image creation utility
+ sys-kernel/mkinitcpio                      | 38                                        |        | https://github.com/archlinux/mkinitcpio                                                 | Modular initramfs image creation utility
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sys-libs/elog-functions                    | 0.0.2                                     |        | http://xochitl.matem.unam.mx/~canek/gentoo-systemd-only/index.html                      | Compatibility functions for the log e* functions of OpenRC
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -620,7 +623,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave                           | 1.63.165                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave-bin                       | 1.63.169                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                      | 1.16                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -647,8 +650,6 @@
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-misc/sddm                              | 9999                                      |        | https://github.com/sddm/sddm                                                            | Simple Desktop Display Manager
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-misc/xwaylandvideobridge               | 20230814                                  |        | https://invent.kde.org/system/xwaylandvideobridge                                       | Utility to allow streaming Wayland windows to X applications
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-plugins/vicious                        | 9999                                      |        | http://awesome.naquadah.org/wiki/Vicious                                                | Modular widget library for x11-wm/awesome
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
