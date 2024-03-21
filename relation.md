@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-03-15 09:10:47 CST)
+(The last generation time: 2024-03-21 12:34:33 CST)
 
 ### Packages
 
@@ -115,7 +115,7 @@
  app-misc/gpick                             | 0.2.6-r1                                  |        | https://github.com/thezbyg/gpick                                                        | Advanced color picker written in C++ using GTK+ toolkit
                                             | 0.3                                       |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-misc/joshuto                           | 0.9.6                                     |        | https://github.com/kamiyaa/joshuto                                                      | Terminal file manager inspired by ranger
+ app-misc/joshuto                           | 0.9.8                                     |        | https://github.com/kamiyaa/joshuto                                                      | Terminal file manager inspired by ranger
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-misc/jshon                             | 9999                                      |        | http://kmkeen.com/jshon/                                                                | Jshon is a JSON parser designed for maximum convenience within the shell
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -203,7 +203,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/archspec                        | 0.2.2                                     |        | https://github.com/archspec/archspec                                                    | A library for detecting, labeling, and reasoning about microarchitectures
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/conda                           | 24.1.2                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
+ dev-python/conda                           | 24.3.0                                    |        | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-libmamba-solver         | 24.1.0-r1                                 |  D, RD | https://github.com/conda/conda-libmamba-solver                                          | The libmamba based solver for conda
      dev-util/mamba                         | 1.5.7                                     | RD     | https://github.com/mamba-org/mamba                                                      | The Fast Cross-Platform Package Manager
        dev-cpp/reproc                       | 14.2.4                                    |  D, RD | https://github.com/DaanDeMeyer/reproc                                                   | A cross-platform (C99/C++11) process library
@@ -296,7 +296,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                     | 3.1.1                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                  | 1.0.6                                     |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+ media-fonts/sarasa-gothic                  | 1.0.7                                     |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -518,10 +518,11 @@
      acct-user/mihomo                       | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
    sys-apps/pnpm                            | 8.15.4                                    | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge-bin                  | 1.5.4                                     |        | https://github.com/clash-verge-rev/clash-verge-rev                                      | (Continuation) of Clash Meta GUI based on Tauri.
-                                            | 1.5.8                                     |        |                                                                                         |
+ net-proxy/clash-verge-bin                  | 1.5.8                                     |        | https://github.com/clash-verge-rev/clash-verge-rev                                      | (Continuation) of Clash Meta GUI based on Tauri.
+                                            | 1.5.9                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/dae                              | 0.4.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
+                                            | 0.5.1                                     |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/daed                             | 0.3.3_p1                                  |        | https://github.com/daeuniverse/daed                                                     | A Modern Dashboard For dae
@@ -546,15 +547,15 @@
                                             | 1.8.9                                     |        |                                                                                         |
      app-alternatives/v2ray-geoip           | 0-r1                                      |  D, RD |                                                                                         | symlink for v2ray-geoip
      app-alternatives/v2ray-geosite         | 0-r1                                      |  D, RD |                                                                                         | symlink for v2ray-geosite
-   net-proxy/v2ray                          | 5.13.0                                    | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
-                                            | 5.14.1                                    |        |                                                                                         |
+   net-proxy/v2ray                          | 5.14.1-r1                                 | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
+                                            | 5.15.1                                    |        |                                                                                         |
    net-proxy/v2ray-bin                      | 4.45.0-r1                                 | RD     | https://www.v2fly.org                                                                   | A platform for building proxies to bypass network restrictions.
                                             | 5.12.1                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                        | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/yass                             | 1.6.5                                     |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
-                                            | 1.7.3                                     |        |                                                                                         |
+ net-proxy/yass                             | 1.7.5                                     |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
+                                            | 1.8.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                        | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -569,7 +570,7 @@
  sci-electronics/lceda                      | 6.5.37                                    |        | https://lceda.cn/                                                                       | LCEDA (binary package)
                                             | 6.5.40                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- sci-electronics/lceda-pro                  | 2.1.49.1                                  |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
+ sci-electronics/lceda-pro                  | 2.1.51                                    |        | https://lceda.cn/                                                                       | LCEDA Pro (binary package)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  sci-electronics/openfpgaloader             | 0.12.0                                    |        | https://trabucayre.github.io/openFPGALoader                                             | Universal utility for programming FPGAs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -656,7 +657,8 @@
  x11-misc/picom-jonaburg                    | 8                                         |        | https://github.com/jonaburg/picom                                                       | jonaburg's picom fork with dual_kawase blur and rounded corners
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- x11-misc/sddm                              | 9999                                      |        | https://github.com/sddm/sddm                                                            | Simple Desktop Display Manager
+ x11-misc/sddm                              | 0.21.0                                    |        | https://github.com/sddm/sddm                                                            | Simple Desktop Display Manager
+                                            | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-plugins/vicious                        | 9999                                      |        | http://awesome.naquadah.org/wiki/Vicious                                                | Modular widget library for x11-wm/awesome
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
