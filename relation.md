@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-03-28 11:16:08 CST)
+(The last generation time: 2024-03-29 16:47:36 CST)
 
 ### Packages
 
@@ -284,7 +284,7 @@
                                             | 2.0                                       |        |                                                                                         |
                                             | 9999                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/Plangothic                     | 1.8.5757                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
+ media-fonts/Plangothic                     | 1.8.5760                                  |        | https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project                  | 遍黑体项目（Plangothic Project）
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/cwtex-q-fonts                  | 0.2                                       |        | https://code.google.com/p/cwtex-q-fonts/                                                | Those five TrueType fonts are transformed from cwTeX Traditional Chinese Type 1 fonts(Version 1.1).
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -516,13 +516,12 @@
    dev-util/tauri-cli                       | 1.5.9                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
                                             | 2.0.0_alpha17                             |        |                                                                                         |
    net-proxy/clash-rs                       | 0.1.15                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
-   net-proxy/mihomo                         | 1.18.1                                    |  D, RD | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
+   net-proxy/mihomo                         | 1.18.2                                    |  D, RD | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
      acct-group/mihomo                      | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
      acct-user/mihomo                       | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
    sys-apps/pnpm                            | 8.15.4                                    | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-verge-bin                  | 1.5.8                                     |        | https://github.com/clash-verge-rev/clash-verge-rev                                      | (Continuation) of Clash Meta GUI based on Tauri.
-                                            | 1.5.9                                     |        |                                                                                         |
+ net-proxy/clash-verge-bin                  | 1.5.10                                    |        | https://github.com/clash-verge-rev/clash-verge-rev                                      | (Continuation) of Clash Meta GUI based on Tauri.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/dae                              | 0.4.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
                                             | 0.5.1                                     |        |                                                                                         |
@@ -620,18 +619,18 @@
  sys-power/tlpui                            | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                             | 1.6.0                                     |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                        | 6.7.10                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
+ virtual/dist-kernel                        | 6.8.2                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                      | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources              | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                             | 6.6.8                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel                 | 6.7.10                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+   sys-kernel/xanmod-kernel                 | 6.8.2                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                     | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources                | 6.7.10                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+   sys-kernel/xanmod-sources                | 6.8.2                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                   | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- www-client/brave-bin                       | 1.64.109                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
+ www-client/brave-bin                       | 1.64.113                                  |        | https://brave.com/                                                                      | Web browser that blocks ads and trackers by default
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                      | 1.16                                      |        | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
