@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-03-29 16:47:36 CST)
+(The last generation time: 2024-04-01 10:37:02 CST)
 
 ### Packages
 
@@ -243,8 +243,6 @@
  dev-util/jetbrains-toolbox                 | 1.28.1.15219                              |        | https://www.jetbrains.com/toolbox/app                                                   | Manage all your JetBrains Projects and Tools
                                             | 2.0.3.17006                               |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/marksman-bin                      | 2022.12.28                                |        | https://github.com/artempyanykh/marksman                                                | A language server for Markdown
---------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/mongodb-compass-bin               | 1.34.2                                    |        | https://mongodb.com/compass                                                             | The GUI for MongoDB
                                             | 1.35.0                                    |        |                                                                                         |
                                             | 1.36.4                                    |        |                                                                                         |
@@ -401,7 +399,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/chinadns                           | 1.3.2                                     |        | https://github.com/clowwindy/ChinaDNS                                                   | Protect yourself against DNS poisoning in China
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-dns/ddns-go                            | 6.3.0                                     |        | https://github.com/jeessy2/ddns-go                                                      | Automatically obtain your public IP address and set to your domain name service.
+ net-dns/ddns-go                            | 6.3.1                                     |        | https://github.com/jeessy2/ddns-go                                                      | Automatically obtain your public IP address and set to your domain name service.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-dns/dnslookup                          | 1.10.0                                    |        | https://github.com/ameshkov/dnslookup                                                   | Simple command line utility to make DNS lookups to the specified server
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -452,6 +450,9 @@
  net-libs/jzmq                              | 9999                                      |        | http://www.zeromq.org/bindings:java                                                     | jzmq
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/alist                             | 3.32.0                                    |        | https://alist.nn.ci                                                                     | A file list/WebDAV program that supports multiple storages
+                                            | 3.33.0                                    |        |                                                                                         |
+   acct-group/alist                         | 0                                         | RD     |                                                                                         | A file list/WebDAV program that supports multiple storages
+   acct-user/alist                          | 0                                         | RD     |                                                                                         | A file list/WebDAV program that supports multiple storages
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/aliyundrive-webdav                | 2.3.3                                     |        | https://github.com/messense/aliyundrive-webdav.git                                      | WebDAV server for AliyunDrive
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -516,12 +517,13 @@
    dev-util/tauri-cli                       | 1.5.9                                     | BD     | https://tauri.app                                                                       | Command line interface for building Tauri apps
                                             | 2.0.0_alpha17                             |        |                                                                                         |
    net-proxy/clash-rs                       | 0.1.15                                    | RD     | https://watfaq.gitbook.io/clashrs-user-manual/                                          | Custom protocol, rule based network proxy
-   net-proxy/mihomo                         | 1.18.2                                    |  D, RD | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
+   net-proxy/mihomo                         | 1.18.3                                    |  D, RD | https://wiki.metacubex.one/                                                             | Another Clash Kernel, formerly Clash.Meta
      acct-group/mihomo                      | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
      acct-user/mihomo                       | 0-r1                                      |  D, RD |                                                                                         | Another Clash Kernel, formerly Clash.Meta
    sys-apps/pnpm                            | 8.15.4                                    | BD     | https://pnpm.io                                                                         | Fast, disk space efficient package manager
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/clash-verge-bin                  | 1.5.10                                    |        | https://github.com/clash-verge-rev/clash-verge-rev                                      | (Continuation) of Clash Meta GUI based on Tauri.
+                                            | 1.5.11                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/dae                              | 0.4.0                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
                                             | 0.5.1                                     |        |                                                                                         |
@@ -545,8 +547,7 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/v2rayA                           | 2.2.5.1                                   |        | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
                                             | 9999                                      |        |                                                                                         |
-   net-proxy/Xray                           | 1.8.8-r1                                  | RD     | https://xtls.github.io/                                                                 | Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
-                                            | 1.8.9                                     |        |                                                                                         |
+   net-proxy/Xray                           | 1.8.10                                    | RD     | https://xtls.github.io/                                                                 | Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
      app-alternatives/v2ray-geoip           | 0-r1                                      |  D, RD |                                                                                         | symlink for v2ray-geoip
      app-alternatives/v2ray-geosite         | 0-r1                                      |  D, RD |                                                                                         | symlink for v2ray-geosite
    net-proxy/v2ray                          | 5.14.1-r1                                 | RD     | https://www.v2fly.org/                                                                  | A platform for building proxies to bypass network restrictions.
