@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-04-01 14:46:11 CST)
+(The last generation time: 2024-04-01 21:25:46 CST)
 
 ### Packages
 
@@ -39,6 +39,11 @@
                                             | 1.8.10                                    |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/la-ow-syscall                | 0.1.0                                     |        | https://github.com/AOSC-Dev/la_ow_syscall                                               | Linux kernel module for compatibility with LoongArch's old-world ABI
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-emulation/liblol-glibc                 | 0.1.5_pre6                                |        | https://www.gnu.org/software/libc/                                                      | GNU libc C library, for liblol
+   dev-util/patchelf-liblol                 | 0.1.4                                     | BD     | https://github.com/NixOS/patchelf                                                       | patchelf patched for building libLoL only
+--------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-emulation/liblol-libxcrypt             | 0.1.5_pre6                                |        | https://github.com/besser82/libxcrypt                                                   | libxcrypt for liblol
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/looking-glass                | 0_beta6-r1                                |        | https://looking-glass.io                                                                | A low latency KVMFR application for guests with VGA PCI Passthrough
    gui-libs/libdecor                        | 0.1.1                                     |  D, RD | https://gitlab.freedesktop.org/libdecor/libdecor                                        | A client-side decorations library for Wayland clients
@@ -143,9 +148,9 @@
                                             | 1064                                      |        |                                                                                         |
                                             | 1068                                      |        |                                                                                         |
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-office/wps-office                      | 11.1.0.11719                              |        | https://www.wps.cn/product/wpslinux/                                                    | WPS Office is an office productivity suite, Here is the Chinese version
+ app-office/wps-office                      | 11.1.0.11719-r1                           |        | https://www.wps.cn/product/wpslinux/                                                    | WPS Office is an office productivity suite, Here is the Chinese version
    virtual/loong-ow-compat                  | 0                                         | RD     |                                                                                         | Virtual for LoongArch old-world compatibility
-     app-emulation/liblol                   | 0.0.4-r1                                  | RD     | https://github.com/shankerwangmiao/liblol                                               | LoongArch old-world ABI compatibility layer from AOSC OS
+     app-emulation/liblol                   | 0.1.5_pre6                                | RD     | https://github.com/AOSC-Dev/liblol                                                      | LoongArch old-world ABI compatibility layer from AOSC OS
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-pda/ipadcharge                         | 9999                                      |        | https://github.com/mkorenkov/ipad_charge                                                | Enables USB charging for Apple devices.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -290,13 +295,13 @@
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                  | 2.0                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei                 | 1.120.1                                   |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei                 | 1.120.2                                   |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/lxgw-neo-zhisong               | 0.113                                     |        | https://github.com/lxgw/LxgwNeoZhiSong                                                  | An open-source Chinese font derived from IPAmj Mincho
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                     | 3.1.1                                     |        | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/sarasa-gothic                  | 1.0.8                                     |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
+ media-fonts/sarasa-gothic                  | 1.0.9                                     |        | https://github.com/be5invis/Sarasa-Gothic                                               | A CJK programming font based on Iosevka and Source Han Sans. (TTC)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/sarasa-term-sc-nerd            | 1.1.0                                     |        | https://github.com/laishulu/Sarasa-Term-SC-Nerd                                         | Sarasa Mono SC font patched with Nerd fonts
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -503,7 +508,7 @@
    acct-group/n2n                           | 0                                         |  D, RD |                                                                                         | A Layer Two Peer-to-Peer VPN
    acct-user/n2n                            | 0                                         |  D, RD |                                                                                         | A Layer Two Peer-to-Peer VPN
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-p2p/qbittorrent-enhanced               | 4.6.3.10                                  |        | https://github.com/c0re100/qBittorrent-Enhanced-Edition                                 | qBittorrent Enhanced, based on qBittorrent
+ net-p2p/qbittorrent-enhanced               | 4.6.4.10                                  |        | https://github.com/c0re100/qBittorrent-Enhanced-Edition                                 | qBittorrent Enhanced, based on qBittorrent
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-print/epson-inkjet-printer_201207w     | 1.0.0                                     |        | http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX                              | Epson printer driver (L110, L210, L300, L350, L355, L550, L555)
 --------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
