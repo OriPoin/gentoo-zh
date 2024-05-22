@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-05-21 15:14:51 CST)
+(The last generation time: 2024-05-22 20:14:50 CST)
 
 ### Packages
 
@@ -268,6 +268,7 @@
                                           | 1.38.2                                    |        |                                                                                         |
                                           | 1.39.4                                    |        |                                                                                         |
                                           | 1.40.2                                    |        |                                                                                         |
+                                          | 1.43.0                                    |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/redpanda-cpp                    | 2.26                                      |        | https://royqh.net/redpandacpp                                                           | A lightweight yet powerful C/C++/GNU Assembly IDE.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -281,7 +282,7 @@
  dev-vcs/gitoxide                         | 0.35.0                                    |        | https://github.com/Byron/gitoxide                                                       | A command-line application for interacting with git repositories
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-arcade/osu-lazer                   | 2024.412.1                                |        | https://osu.ppy.sh                                                                      | rhythm is just a *click* away!
-                                          | 2024.519.1                                |        |                                                                                         |
+                                          | 2024.521.2                                |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  games-board/othello                      | 0.2.2                                     |        | http://othello-game.sourceforge.net                                                     | Othello is a classic strategy game, also known as Reversi
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -572,12 +573,12 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                      | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/yass                           | 1.10.1                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
+ net-proxy/yass                           | 1.10.1-r3                                 |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
                                           | 1.9.6                                     |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                      | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-vpn/tailscale                        | 1.66.2                                    |        | https://tailscale.com                                                                   | Tailscale vpn client
+ net-vpn/tailscale                        | 1.66.4                                    |        | https://tailscale.com                                                                   | Tailscale vpn client
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-wireless/linux-wifi-hotspot          | 9999                                      |        | https://github.com/lakinduakash/linux-wifi-hotspot                                      | Linux Wifi Hotspot
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -638,14 +639,14 @@
  sys-power/tlpui                          | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                           | 1.6.0                                     |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                      | 6.8.7                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
+ virtual/dist-kernel                      | 6.8.10                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                    | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources            | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                           | 6.6.8                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel               | 6.8.7                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+   sys-kernel/xanmod-kernel               | 6.8.10                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                   | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources              | 6.8.7                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+   sys-kernel/xanmod-sources              | 6.8.10                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                 | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
