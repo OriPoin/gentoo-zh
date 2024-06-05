@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-06-04 15:11:26 CST)
+(The last generation time: 2024-06-05 10:40:42 CST)
 
 ### Packages
 
@@ -176,7 +176,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/tgbot-cpp                        | 1.7.3                                     |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-db/dbeaver-bin                       | 24.0.5                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
+ dev-db/dbeaver-bin                       | 24.1.0                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/mongodb                           | 5.3.1                                     |        | https://www.mongodb.com                                                                 | A high-performance, open source, schema-free document-oriented database
                                           | 6.2.0-r4                                  |        |                                                                                         |
@@ -304,7 +304,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                | 2.0                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei               | 1.123                                     |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei               | 1.123.1                                   |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/lxgw-neo-zhisong             | 0.113                                     |        | https://github.com/lxgw/LxgwNeoZhiSong                                                  | An open-source Chinese font derived from IPAmj Mincho
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -355,10 +355,10 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/barva                        | 9999                                      |        | https://github.com/Kharacternyk/barva                                                   | a modular audio visualizer
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/feeluown                     | 4.1.2                                     |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
-   dev-python/feeluown-bilibili           | 0.3.3                                     |  D     | https://github.com/feeluown/feeluown-bilibili                                           | bilibili support for feeluown
-   dev-python/fuo-netease                 | 1.0.1                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
-   dev-python/fuo-qqmusic                 | 1.0.2                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
+ media-sound/feeluown                     | 4.1.5                                     |        | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
+   dev-python/feeluown-bilibili           | 0.4.0                                     |  D     | https://github.com/feeluown/feeluown-bilibili                                           | bilibili support for feeluown
+   dev-python/fuo-netease                 | 1.0.3                                     |  D     | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
+   dev-python/fuo-qqmusic                 | 1.0.5                                     |  D     | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/fuo-ytmusic                 | 0.3.4                                     |  D     | https://github.com/feeluown/feeluown-ytmusic                                            | youtube music support for feeluown
    dev-python/janus                       | 1.0.0-r1                                  |  D, RD | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                      | 0.27.1                                    |  D, RD | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
@@ -373,11 +373,11 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/netease-cloud-music          | 1.2.1                                     |        | https://music.163.com                                                                   | Netease Cloud Music, converted from .deb package
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/netease-cloud-music-gtk      | 2.3.1                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK for Linux
+ media-sound/netease-cloud-music-gtk      | 2.4.0                                     |        | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK for Linux
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/qqmusic                      | 1.1.5                                     |        | https://y.qq.com/                                                                       | Tencent QQ Music, converted from .deb package
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/spotube-bin                  | 3.6.0                                     |        | https://github.com/KRTirtho/spotube                                                     | A lightweight Spotify client using YouTube as audio source
+ media-sound/spotube-bin                  | 3.7.0                                     |        | https://github.com/KRTirtho/spotube                                                     | A lightweight Spotify client using YouTube as audio source
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                     | 0.9.0                                     |        | https://github.com/tramhao/termusic                                                     | Terminal Music and Podcast Player written in Rust
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
