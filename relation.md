@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-06-05 10:40:42 CST)
+(The last generation time: 2024-06-07 23:14:18 CST)
 
 ### Packages
 
@@ -33,12 +33,14 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx-pinyin-zhwiki            | 20230728                                  |        | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/appflowy-bin                 | 0.5.8                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
+ app-editors/appflowy-bin                 | 0.5.9                                     |        | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/marktext-bin                 | 0.17.1                                    |        | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                       | 0.11.18                                   |        | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                           | 1.8.10                                    |        |                                                                                         |
+------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ app-editors/zed                          | 0.138.4                                   |        | https://zed.dev/                                                                        | high-performance, multiplayer code editor
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/la-ow-syscall              | 0.1.0                                     |        | https://github.com/AOSC-Dev/la_ow_syscall                                               | Linux kernel module for compatibility with LoongArch's old-world ABI
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -50,7 +52,8 @@
  app-emulation/looking-glass              | 0_beta6-r1                                |        | https://looking-glass.io                                                                | A low latency KVMFR application for guests with VGA PCI Passthrough
    gui-libs/libdecor                      | 0.1.1                                     |  D, RD | https://gitlab.freedesktop.org/libdecor/libdecor                                        | A client-side decorations library for Wayland clients
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-emulation/winetricks-zh              | 9999                                      |        | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
+ app-emulation/winetricks-zh              | 9999                                      |        | https://github.com/hillwoodroc/winetricks-zh/                                           | windows applications setup wizard for Chinese wine users
+                                          | 20240105.1                                |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/dvp                             | 1.2.1-r1                                  |        | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -304,7 +307,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                | 2.0                                       |        | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgw-neo-xihei               | 1.123.1                                   |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
+ media-fonts/lxgw-neo-xihei               | 1.123.2                                   |        | https://github.com/lxgw/LxgwNeoXiHei                                                    | A Chinese sans-serif font derived from IPAex Gothic.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/lxgw-neo-zhisong             | 0.113                                     |        | https://github.com/lxgw/LxgwNeoZhiSong                                                  | An open-source Chinese font derived from IPAmj Mincho
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -377,7 +380,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/qqmusic                      | 1.1.5                                     |        | https://y.qq.com/                                                                       | Tencent QQ Music, converted from .deb package
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/spotube-bin                  | 3.7.0                                     |        | https://github.com/KRTirtho/spotube                                                     | A lightweight Spotify client using YouTube as audio source
+ media-sound/spotube-bin                  | 3.7.1                                     |        | https://github.com/KRTirtho/spotube                                                     | A lightweight Spotify client using YouTube as audio source
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/termusic                     | 0.9.0                                     |        | https://github.com/tramhao/termusic                                                     | Terminal Music and Podcast Player written in Rust
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -442,7 +445,7 @@
                                           | 0.1.29                                    |        |                                                                                         |
      dev-libs/libdatrie                   | 0.2.13                                    |  D, RD | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/tencent-qq                        | 3.2.8_p240520-r1                          |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
+ net-im/tencent-qq                        | 3.2.9_p240606                             |        | https://im.qq.com/linuxqq/index.shtml                                                   | The new version of the official linux-qq
    media-libs/openslide                   | 20230904                                  | RD     | http://openslide.org/                                                                   | C library with simple interface to read virtual slides
    virtual/loong-ow-compat                | 0                                         | RD     |                                                                                         | Virtual for LoongArch old-world compatibility
      app-emulation/liblol                 | 0.1.5_pre6                                | RD     | https://liblol.aosc.io                                                                  | LoongArch old-world ABI compatibility layer from AOSC OS
@@ -453,8 +456,8 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-im/weixin-uos                        | 2.1.8                                     |        | https://www.chinauos.com/resource/download-professional                                 | UOS weixin
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-im/wemeet                            | 3.15.1.403                                |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
-                                          | 3.19.0.401                                |        |                                                                                         |
+ net-im/wemeet                            | 3.19.1.400                                |        | https://wemeet.qq.com                                                                   | Wemeet - Tencent Video Conferencing
+                                          | 3.19.1.401                                |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-libs/jzmq                            | 9999                                      |        | http://www.zeromq.org/bindings:java                                                     | jzmq
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -467,7 +470,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/aliyunpan                       | 0.2.8                                     |        | https://github.com/tickstep/aliyunpan                                                   | aliyunpan cli client, support Webdav service, JavaScript plugin
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/apifox                          | 2.3.24                                    |        | https://www.apifox.cn/                                                                  | API 文档、API 调试、API Mock、API 自动化测试
+ net-misc/apifox                          | 2.5.1                                     |        | https://www.apifox.cn/                                                                  | API 文档、API 调试、API Mock、API 自动化测试
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/avsocks                         | 9999                                      |        | https://github.com/avplayer/avsocks                                                     | API 文档、API 调试、API Mock、API 自动化测试
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -634,14 +637,14 @@
  sys-power/tlpui                          | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                           | 1.6.0                                     |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                      | 6.8.10                                    |        |                                                                                         | Virtual to depend on any Distribution Kernel
+ virtual/dist-kernel                      | 6.9.3                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                    | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources            | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                           | 6.6.8                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel               | 6.8.10                                    | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+   sys-kernel/xanmod-kernel               | 6.9.3                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                   | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources              | 6.8.10                                    | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+   sys-kernel/xanmod-sources              | 6.9.3                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                 | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -680,6 +683,8 @@
  x11-themes/fcitx-breeze                  | 2.0.0-r2                                  |        | https://github.com/scratch-er/fcitx5-breeze                                             | Fcitx5 theme to match KDE's Breeze style.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/klassy                        | 4.0.5.25.80-r1                            |        | https://github.com/paulmcauley/klassy                                                   | Highly customizable theme plugin for KDE Plasma desktop
+------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
+ x11-themes/kora-icon-theme               | 1.6.1                                     |        | https://github.com/bikass/kora                                                          | An SVG icon theme with lots of new icons for GNU/Linux operating systems
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/lxice                         | 0.1.0                                     |        | http://lxde.sf.net/                                                                     | LXDE theme for IceWM
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
