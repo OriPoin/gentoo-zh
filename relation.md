@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2024-06-07 23:14:18 CST)
+(The last generation time: 2024-06-17 09:01:05 CST)
 
 ### Packages
 
@@ -40,7 +40,7 @@
  app-editors/typora                       | 0.11.18                                   |        | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                           | 1.8.10                                    |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/zed                          | 0.138.4                                   |        | https://zed.dev/                                                                        | high-performance, multiplayer code editor
+ app-editors/zed                          | 0.138.6                                   |        | https://zed.dev/                                                                        | high-performance, multiplayer code editor
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/la-ow-syscall              | 0.1.0                                     |        | https://github.com/AOSC-Dev/la_ow_syscall                                               | Linux kernel module for compatibility with LoongArch's old-world ABI
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -63,8 +63,8 @@
  app-i18n/fcitx-meta                      | 5.0.12-r2                                 |        | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
    app-i18n/fcitx-anthy                   | 5.1.2                                     | RD     | https://fcitx-im.org/                                                                   | Japanese Anthy input methods for Fcitx5
    app-i18n/fcitx-bamboo                  | 1.0.4                                     | RD     | https://github.com/fcitx/fcitx5-bamboo                                                  | Typing Vietnamese by Bamboo core engine for Fcitx5
-   app-i18n/fcitx-chewing                 | 5.1.2                                     | RD     | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
-                                          | 5.1.3                                     |        |                                                                                         |
+   app-i18n/fcitx-chewing                 | 5.1.3                                     | RD     | https://github.com/fcitx/fcitx5-chewing                                                 | Chewing Wrapper for Fcitx.
+                                          | 5.1.4                                     |        |                                                                                         |
    app-i18n/fcitx-chinese-addons          | 9999                                      |  D, RD | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
      app-i18n/fcitx-lua                   | 9999                                      |  D, RD | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
      app-i18n/fcitx-qt                    | 9999                                      |  D, RD | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
@@ -77,12 +77,12 @@
                                           | 9999                                      |        |                                                                                         |
    app-i18n/fcitx-rime                    | 9999                                      | RD     | https://github.com/fcitx/fcitx5-rime                                                    | Rime Support for Fcitx5
      app-i18n/rime-prelude                | 20220122-r1                               |  D, RD | https://github.com/rime/rime-prelude                                                    | Essential files for building up your Rime configuration
-   app-i18n/fcitx-skk                     | 5.1.3                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
+   app-i18n/fcitx-skk                     | 5.1.4                                     | RD     | https://fcitx-im.org/                                                                   | Japanese SKK input engine for Fcitx5
                                           | 9999                                      |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/ibus-rime                       | 9999                                      |        | http://code.google.com/p/rimeime/                                                       | Rime Input Method Engine for IBus Framework
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/libime-jyutping                 | 1.0.11                                    |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping input method
+ app-i18n/libime-jyutping                 | 1.0.12                                    |        | https://github.com/fcitx/libime-jyutping                                                | A library make use of libime to implement jyutping input method
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/lunar                           | 2.2-r5                                    |        | https://packages.debian.org/unstable/utils/lunar                                        | Chinese Lunar Calendar conversion utility
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -143,7 +143,7 @@
                                           | 23.07.201366-r1                           |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/anytype-bin                   | 0.35.4                                    |        | https://anytype.io                                                                      | A notebook based on p2p network
-                                          | 0.40.9                                    |        |                                                                                         |
+                                          | 0.41.0                                    |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  app-office/bytedance-feishu              | 7.15.13                                   |        | https://www.feishu.cn/download                                                          | 飞书（Feishu） 飞书整合即时消息、日历、音视频会议、云文档、工作台等功能于一体，成就团队和个人，更高效、更愉悦。
                                           | 7.15.13-r1                                |        |                                                                                         |
@@ -177,7 +177,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/nameof                           | 0.10.4                                    |        | https://github.com/Neargye/nameof                                                       | Nameof operator for modern C++
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- dev-cpp/tgbot-cpp                        | 1.7.3                                     |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
+ dev-cpp/tgbot-cpp                        | 1.8                                       |        | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  dev-db/dbeaver-bin                       | 24.1.0                                    |        | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -485,7 +485,7 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/biliup-app-bin                  | 0.4.1                                     |        | https://github.com/ForgQi/biliup-app                                                    | A Tool for Upload video to bilibili
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/biliup-rs                       | 0.1.21                                    |        | https://github.com/biliup/biliup-rs                                                     | Upload video to bilibili.
+ net-misc/biliup-rs                       | 0.2.0                                     |        | https://github.com/biliup/biliup-rs                                                     | Upload video to bilibili.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/networkmanager-l2tp             | 9999                                      |        | http://www.gnome.org/projects/NetworkManager/                                           | NetworkManager L2TP plugin
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -540,7 +540,7 @@
                                           | 1.6.4                                     |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/dae                            | 0.5.1                                     |        | https://github.com/daeuniverse/dae                                                      | A lightweight and high-performance transparent proxy solution based on eBPF
-                                          | 0.6.0_rc2                                 |        |                                                                                         |
+                                          | 0.6.0                                     |        |                                                                                         |
                                           | 9999                                      |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/daed                           | 0.4.1                                     |        | https://github.com/daeuniverse/daed                                                     | A Modern Dashboard For dae
@@ -553,10 +553,12 @@
  net-proxy/juicity                        | 0.4.2                                     |        | https://github.com/juicity/juicity                                                      | juicity is a quic-based proxy protocol.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/proxy-server                   | 6.0.0                                     |        | https://github.com/jackarain/proxy                                                      | Implementation of all proxy protocols using modern c++
+                                          | 7.0.0                                     |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/shadowsocks-rust               | 1.18.2                                    |        | https://github.com/shadowsocks/shadowsocks-rust                                         | A Rust port of shadowsocks.
+ net-proxy/shadowsocks-rust               | 1.19.3                                    |        | https://github.com/shadowsocks/shadowsocks-rust                                         | A Rust port of shadowsocks.
+                                          | 1.19.4                                    |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/sing-box                       | 1.9.0                                     |        | https://sing-box.sagernet.org/                                                          | The universal proxy platform.
+ net-proxy/sing-box                       | 1.9.3                                     |        | https://sing-box.sagernet.org/                                                          | The universal proxy platform.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                     | 0.9.5                                     |        | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -572,12 +574,12 @@
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/yacd-meta                      | 0.3.6                                     |        | https://github.com/MetaCubeX/Yacd-meta                                                  | Yet Another Clash Dashboard
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/yass                           | 1.10.5                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
-                                          | 1.9.7                                     |        |                                                                                         |
+ net-proxy/yass                           | 1.10.6                                    |        | https://github.com/Chilledheart/yass                                                    | lightweight and efficient, socks5/http forward proxy
+                                          | 1.11.1                                    |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-vpn/sstp-server                      | 0.6.0                                     |        | https://github.com/sorz/sstp-server/                                                    | A Secure Socket Tunneling Protocol (SSTP) server implemented in Python.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- net-vpn/tailscale                        | 1.66.4                                    |        | https://tailscale.com                                                                   | Tailscale vpn client
+ net-vpn/tailscale                        | 1.68.0                                    |        | https://tailscale.com                                                                   | Tailscale vpn client
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  net-wireless/linux-wifi-hotspot          | 9999                                      |        | https://github.com/lakinduakash/linux-wifi-hotspot                                      | Linux Wifi Hotspot
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
@@ -637,14 +639,14 @@
  sys-power/tlpui                          | 1.5.0_p6                                  |        | https://github.com/d4nj1/TLPUI                                                          | A GTK user interface for TLP written in Python
                                           | 1.6.0                                     |        |                                                                                         |
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                      | 6.9.3                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
+ virtual/dist-kernel                      | 6.9.4                                     |        |                                                                                         | Virtual to depend on any Distribution Kernel
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                    | 3-r11                                     |        |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources            | 6.4.12                                    | RD     | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                           | 6.6.8                                     |        |                                                                                         |
-   sys-kernel/xanmod-kernel               | 6.9.3                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+   sys-kernel/xanmod-kernel               | 6.9.4                                     | RD     | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                   | 6.0.11                                    | RD     | https://xanmod.org                                                                      | XanMod RT sources and CJKTTY options.
-   sys-kernel/xanmod-sources              | 6.9.3                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
+   sys-kernel/xanmod-sources              | 6.9.4                                     | RD     | https://xanmod.org                                                                      | Full XanMod source, including the Gentoo patchset and other patch options.
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
  www-apps/chatgpt-desktop                 | 1.1.0                                     |        | https://nofwl.com                                                                       | ChatGPT Desktop Application
 ------------------------------------------|-------------------------------------------|--------|-----------------------------------------------------------------------------------------|--------------------
