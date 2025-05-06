@@ -21,7 +21,7 @@ HOMEPAGE="https://github.com/openSUSE/libsolv"
 LICENSE="GPL-2"
 SLOT="0"
 
-IUSE="static perl python ruby tcl rpm pubkey suse comps helix debian mdk arch cudf conda appdata lzma bzip2 zstd zchunk libxml2"
+IUSE="static-libs perl python ruby tcl rpm pubkey suse comps helix debian mdk arch cudf conda appdata lzma bzip2 zstd zchunk libxml2"
 
 RDEPEND="zchunk? ( app-arch/zchunk )"
 DEPEND="
@@ -40,6 +40,7 @@ REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 src_configure(){
 	mycmakeargs=(
 		-DCMAKE_C_FLAGS_RELEASE='-DNDEBUG'
+		-DENABLE_STATIC=$(usex static-libs)
 		-DENABLE_PERL=$(usex perl)
 		-DENABLE_PYTHON=$(usex python)
 		-DENABLE_RUBY=$(usex ruby)
