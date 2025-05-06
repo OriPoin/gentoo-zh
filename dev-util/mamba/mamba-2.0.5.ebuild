@@ -32,11 +32,35 @@ DEPEND="app-arch/libarchive:=
 	dev-cpp/nlohmann_json
 	dev-cpp/reproc:=
 	dev-cpp/tl-expected
-	dev-cpp/yaml-cpp:=
+	dev-cpp/yaml-cpp
+	dev-libs/simdjson
+	sys-libs/libsolv:=[conda]
+	micromamba? (
+		app-crypt/mit-krb5[static-libs]
+		app-arch/bzip2[static-libs]
+		app-arch/libarchive[static-libs]
+		app-arch/lz4[static-libs]
+		app-arch/xz-utils[static-libs]
+		app-arch/zstd[static-libs]
+		dev-cpp/yaml-cpp:=[static-libs]
+		dev-cpp/reproc:=[static-libs]
+		dev-libs/libunistring[static-libs]
+		dev-libs/simdjson[static-libs]
+		net-dns/libidn2[static-libs]
+		net-libs/libssh2[static-libs]
+		net-libs/libpsl[static-libs]
+		net-libs/nghttp2[static-libs]
+		net-libs/nghttp3[static-libs]
+		net-dns/c-ares[static-libs]
+		net-misc/curl[static-libs]
+		sys-apps/acl[static-libs]
+		sys-fs/e2fsprogs[static-libs]
+		sys-libs/libsolv:=[static-libs]
+		sys-libs/zlib[static-libs]
+		)
 	dev-libs/libfmt:=
 	dev-libs/spdlog
 	net-misc/curl
-	sys-libs/libsolv:=[conda]
 	python? ( ${PYTHON_DEPS} )
 "
 # conflict to micromamba from benzene-overlay
@@ -72,6 +96,10 @@ S="${WORKDIR}/${PN}-${DATE_TAG}"
 #	micromamba/tests/test_package.py
 # )
 
+PATCHES=(
+        "${FILESDIR}/mamba-static.patch"
+)
+
 src_prepare() {
 	cmake_src_prepare
 	use python && { sed -i \
@@ -99,6 +127,58 @@ src_configure() {
 		-DBUILD_STATIC=OFF
 		-Dzstd_DIR="${T}"
 	)
+	if use micromamba; then
+		cat > "${T}"/LibsolvConfig.cmake <<-EOF || die
+			add_library(solv::libsolv_static STATIC IMPORTED)
+			set_target_properties(solv::libsolv_static PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libsolv.a")
+			add_library(solv::libsolvext_static STATIC IMPORTED)
+			set_target_properties(solv::libsolvext_static PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libsolv.a")
+			add_library(solv::libsolv SHARED IMPORTED)
+			set_target_properties(solv::libsolv PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libsolvext$(get_libname)")
+			add_library(solv::libsolvext SHARED IMPORTED)
+			set_target_properties(solv::libsolvext PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libsolvext$(get_libname)")
+		EOF
+		cat > "${T}"/reprocConfig.cmake <<-EOF || die
+			add_library(reproc_static STATIC IMPORTED)
+			set_target_properties(reproc_static PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libreproc.a")
+			add_library(reproc++_static STATIC IMPORTED)
+			set_target_properties(reproc++_static PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libreproc++.a")
+			add_library(reproc SHARED IMPORTED)
+			set_target_properties(reproc PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libreproc$(get_libname)")
+			add_library(reproc++ SHARED IMPORTED)
+			set_target_properties(reproc++ PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libreproc++$(get_libname)")
+		EOF
+		cat > "${T}"/simdjsonConfig.cmake <<-EOF || die
+			add_library(simdjson::simdjson_static STATIC IMPORTED)
+			set_target_properties(simdjson::simdjson_static PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libsimdjson_static.a")
+			add_library(simdjson::simdjson SHARED IMPORTED)
+			set_target_properties(simdjson::simdjson PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libsimdjson$(get_libname)")
+		EOF
+		cat > "${T}"/yaml-cppConfig.cmake <<-EOF || die
+			add_library(yaml-cpp::yaml-cpp_static STATIC IMPORTED)
+			set_target_properties(yaml-cpp::yaml-cpp_static PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libyaml-cpp.a")
+			add_library(yaml-cpp::yaml-cpp SHARED IMPORTED)
+			set_target_properties(yaml-cpp::yaml-cpp PROPERTIES
+					IMPORTED_LOCATION "${EPREFIX}/usr/$(get_libdir)/libyaml-cpp$(get_libname)")
+		EOF
+		mycmakeargs+=(
+			-Dyaml-cpp_DIR="${T}" \
+			-Dreproc_DIR="${T}" \
+			-Dreproc++_DIR="${T}" \
+			-Dsimdjson_DIR="${T}"
+		)
+	fi
 	cmake_src_configure
 }
 

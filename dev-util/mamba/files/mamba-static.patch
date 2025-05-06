@@ -1,0 +1,49 @@
+diff --git a/libmamba/CMakeLists.txt b/libmamba/CMakeLists.txt
+index f3629c4..e6812cc 100644
+--- a/libmamba/CMakeLists.txt
++++ b/libmamba/CMakeLists.txt
+@@ -459,16 +459,16 @@ macro(libmamba_create_target target_name linkage output_name)
+     if(${linkage_upper} STREQUAL "STATIC")
+         message("   -> Statically linking against libmamba (static) dependencies")
+ 
+-        mamba_target_check_type(yaml-cpp::yaml-cpp STATIC_LIBRARY FATAL_ERROR)
+-        mamba_target_check_type(reproc STATIC_LIBRARY FATAL_ERROR)
+-        mamba_target_check_type(reproc++ STATIC_LIBRARY FATAL_ERROR)
++        mamba_target_check_type(yaml-cpp::yaml-cpp_static STATIC_LIBRARY FATAL_ERROR)
++        mamba_target_check_type(reproc_static STATIC_LIBRARY FATAL_ERROR)
++        mamba_target_check_type(reproc++_static STATIC_LIBRARY FATAL_ERROR)
+ 
+         target_link_libraries(
+             ${target_name}
+-            PUBLIC fmt::fmt-header-only spdlog::spdlog_header_only yaml-cpp::yaml-cpp
++	    PUBLIC fmt::fmt-header-only spdlog::spdlog_header_only yaml-cpp::yaml-cpp_static
+             PRIVATE
+-                reproc
+-                reproc++
++                reproc_static
++                reproc++_static
+                 simdjson::simdjson_static
+                 solv::libsolv_static
+                 solv::libsolvext_static
+@@ -477,6 +477,7 @@ macro(libmamba_create_target target_name linkage output_name)
+ 
+         if(UNIX)
+ 
++            find_package(libxml2 REQUIRED)
+             set(
+                 REQUIRED_STATIC_DEPS
+                 libcurl.a
+@@ -496,6 +497,13 @@ macro(libmamba_create_target target_name linkage output_name)
+                 libz.a
+                 liblzma.a
+                 libnghttp2.a
++		libxml2.a
++		libacl.a
++		libcares.a
++		libpsl.a
++		libnghttp3.a
++		libidn2.a
++		libunistring.a
+             )
+             if(APPLE)
+                 set(REQUIRED_STATIC_DEPS ${REQUIRED_STATIC_DEPS} libc++.a)
