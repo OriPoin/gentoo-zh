@@ -1,0 +1,34 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 46dc180..87656b9 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -156,25 +156,25 @@ write_basic_package_version_file(
+   "${PROJECT_BINARY_DIR}/yaml-cpp-config-version.cmake"
+   COMPATIBILITY AnyNewerVersion)
+ 
+-configure_file(yaml-cpp.pc.in yaml-cpp.pc @ONLY)
++configure_file(yaml-cpp.pc.in ${YAML_CPP_PKG_CONFIG_NAME}.pc @ONLY)
+ 
+ if (YAML_CPP_INSTALL)
+   install(TARGETS yaml-cpp
+-    EXPORT yaml-cpp-targets
++    EXPORT ${YAML_CPP_PKG_CONFIG_NAME}-targets
+     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+     ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
+   install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/
+     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+                 FILES_MATCHING PATTERN "*.h")
+-  install(EXPORT yaml-cpp-targets
++  install(EXPORT ${YAML_CPP_PKG_CONFIG_NAME}-targets
+     NAMESPACE yaml-cpp::
+     DESTINATION "${CONFIG_EXPORT_DIR}")
+   install(FILES
+       "${PROJECT_BINARY_DIR}/yaml-cpp-config.cmake"
+       "${PROJECT_BINARY_DIR}/yaml-cpp-config-version.cmake"
+     DESTINATION "${CONFIG_EXPORT_DIR}")
+-  install(FILES "${PROJECT_BINARY_DIR}/yaml-cpp.pc"
++  install(FILES "${PROJECT_BINARY_DIR}/${YAML_CPP_PKG_CONFIG_NAME}.pc"
+     DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig)
+ endif()
+ unset(CONFIG_EXPORT_DIR)
